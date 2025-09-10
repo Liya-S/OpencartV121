@@ -1,0 +1,2408 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\user\eclipse-workspace\opencart12\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>9 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">74 methods, 3 failed,   71 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC01_AccountRegistration" class="method navigator-link" hash-for-method="verifyAccReg_Keyboard">verifyAccReg_Keyboard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC03_AccountLogout" class="method navigator-link" hash-for-method="verifyLogout_Browseback">verifyLogout_Browseback</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC02_AccountLogin" class="method navigator-link" hash-for-method="verifyOpeningBrowserWithoutLoggingOut">verifyOpeningBrowserWithoutLoggingOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC01_AccountRegistration" class="method navigator-link" hash-for-method="verifyAccReg_PrivacyPolicy">verifyAccReg_PrivacyPolicy</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC01_AccountRegistration" class="method navigator-link" hash-for-method="verifyAccReg_newsletterNo">verifyAccReg_newsletterNo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC01_AccountRegistration" class="method navigator-link" hash-for-method="verifyAccReg_newsletterYes">verifyAccReg_newsletterYes</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC01_AccountRegistration" class="method navigator-link" hash-for-method="verifyAccReg_notGivingAllMandatoryDetails">verifyAccReg_notGivingAllMandatoryDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC01_AccountRegistration" class="method navigator-link" hash-for-method="verifyAccReg_notGivingAllMandatoryDetails2">verifyAccReg_notGivingAllMandatoryDetails2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC01_AccountRegistration" class="method navigator-link" hash-for-method="verifyAccReg_onlySpaces">verifyAccReg_onlySpaces</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC01_AccountRegistration" class="method navigator-link" hash-for-method="verifyAccReg_onlySpaces2">verifyAccReg_onlySpaces2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC01_AccountRegistration" class="method navigator-link" hash-for-method="verifyAccReg_placeholders">verifyAccReg_placeholders</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC01_AccountRegistration" class="method navigator-link" hash-for-method="verifyAccountReg_AlreadyRegEmail(jai.hopper@msn.com, 944683642, luiuyh, ghgh)">verifyAccountReg_AlreadyRegEmail(jai.hopper@msn.com, 944683642, luiuyh, ghgh)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC01_AccountRegistration" class="method navigator-link" hash-for-method="verifyAccountReg_DiffPwd(n1ny1snmze@googlemail.com, 9446835642, baselal, k)">verifyAccountReg_DiffPwd(n1ny1snmze@googlemail.com, 9446835642, baselal, k)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC01_AccountRegistration" class="method navigator-link" hash-for-method="verifyAccountReg_DiffPwd(maddison.wood@comcast.net, 9447975642, liya, shaji)">verifyAccountReg_DiffPwd(maddison.wood@comcast.net, 9447975642, liya, shaji)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC01_AccountRegistration" class="method navigator-link" hash-for-method="verifyAccountReg_NotAgree(maddison.wood@comcast.net, 9447975642, liya, shaji)">verifyAccountReg_NotAgree(maddison.wood@comcast.net, 9447975642, liya, shaji)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC01_AccountRegistration" class="method navigator-link" hash-for-method="verifyAccountReg_NotAgree(n1ny1snmze@googlemail.com, 9446835642, baselal, k)">verifyAccountReg_NotAgree(n1ny1snmze@googlemail.com, 9446835642, baselal, k)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC01_AccountRegistration" class="method navigator-link" hash-for-method="verifyAccountReg_hiddenPwd">verifyAccountReg_hiddenPwd</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC01_AccountRegistration" class="method navigator-link" hash-for-method="verifyAccountReg_invalidPwd(darrach.keith@googlemail.com, 944683642, luiuyh, fdg, ff)">verifyAccountReg_invalidPwd(darrach.keith@googlemail.com, 944683642, luiuyh, fdg, ff)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC01_AccountRegistration" class="method navigator-link" hash-for-method="verifyAccountReg_invalid_email(7gqcw4fuinxw@hotmail.com, 9447975642, baselal, k)">verifyAccountReg_invalid_email(7gqcw4fuinxw@hotmail.com, 9447975642, baselal, k)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC01_AccountRegistration" class="method navigator-link" hash-for-method="verifyAccountReg_invalid_phno(joshiah.baxter@hotmail.com, 21245, baselal, k)">verifyAccountReg_invalid_phno(joshiah.baxter@hotmail.com, 21245, baselal, k)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC04_ForgotPassword" class="method navigator-link" hash-for-method="verifyForgotPwd_AskValidEmail">verifyForgotPwd_AskValidEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC04_ForgotPassword" class="method navigator-link" hash-for-method="verifyForgotPwd_FailureMsg">verifyForgotPwd_FailureMsg</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC04_ForgotPassword" class="method navigator-link" hash-for-method="verifyForgotPwd_FailureMsgIfNoEmail">verifyForgotPwd_FailureMsgIfNoEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC04_ForgotPassword" class="method navigator-link" hash-for-method="verifyForgotPwd_Placeholder_email">verifyForgotPwd_Placeholder_email</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC04_ForgotPassword" class="method navigator-link" hash-for-method="verifyForgotPwd_SuccessMsg">verifyForgotPwd_SuccessMsg</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC04_ForgotPassword" class="method navigator-link" hash-for-method="verifyForgotPwd_fromLoginPage">verifyForgotPwd_fromLoginPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC04_ForgotPassword" class="method navigator-link" hash-for-method="verifyForgotPwd_fromRightColumn">verifyForgotPwd_fromRightColumn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC04_ForgotPassword" class="method navigator-link" hash-for-method="verifyForgotPwd_loggingInAfterReset">verifyForgotPwd_loggingInAfterReset</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC05_Search" class="method navigator-link" hash-for-method="verifyListAndGridViews_MultipleProducts">verifyListAndGridViews_MultipleProducts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC05_Search" class="method navigator-link" hash-for-method="verifyListView_MultipleProducts">verifyListView_MultipleProducts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC02_AccountLogin" class="method navigator-link" hash-for-method="verifyLogin_EmptyUN_PWD">verifyLogin_EmptyUN_PWD</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC02_AccountLogin" class="method navigator-link" hash-for-method="verifyLogin_OnlySpaces">verifyLogin_OnlySpaces</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC02_AccountLogin" class="method navigator-link" hash-for-method="verifyLogin_PwdInPageSource">verifyLogin_PwdInPageSource</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC02_AccountLogin" class="method navigator-link" hash-for-method="verifyLogin_PwdToggled">verifyLogin_PwdToggled</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC03_AccountLogout" class="method navigator-link" hash-for-method="verifyLogoutNotDisplayedBeforeLoggingIn">verifyLogoutNotDisplayedBeforeLoggingIn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC03_AccountLogout" class="method navigator-link" hash-for-method="verifyLogout_AfterLogin">verifyLogout_AfterLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC03_AccountLogout" class="method navigator-link" hash-for-method="verifyLogout_fromMyAccount">verifyLogout_fromMyAccount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC03_AccountLogout" class="method navigator-link" hash-for-method="verifyLogout_fromRightColumn">verifyLogout_fromRightColumn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC05_Search" class="method navigator-link" hash-for-method="verifyNavigation_ProductComparePage">verifyNavigation_ProductComparePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC05_Search" class="method navigator-link" hash-for-method="verifyPlaceholders">verifyPlaceholders</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC05_Search" class="method navigator-link" hash-for-method="verifyWithoutCheckingSearchInProductDescription">verifyWithoutCheckingSearchInProductDescription</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC05_Search" class="method navigator-link" hash-for-method="verifyWithoutCheckingSearchInSubCategories">verifyWithoutCheckingSearchInSubCategories</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC06_ProductDetails" class="method navigator-link" hash-for-method="verify_AddToCartFromProductDisplay">verify_AddToCartFromProductDisplay</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC02_AccountLogin" class="method navigator-link" hash-for-method="verify_ForgotPwd02">verify_ForgotPwd02</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC02_AccountLogin" class="method navigator-link" hash-for-method="verify_ForgotPwd03">verify_ForgotPwd03</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC02_AccountLogin" class="method navigator-link" hash-for-method="verify_ForgotPwdLink">verify_ForgotPwdLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC02_AccountLogin" class="method navigator-link" hash-for-method="verify_ForgotPwdPage">verify_ForgotPwdPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC02_AccountLogin" class="method navigator-link" hash-for-method="verify_Login_Placeholders">verify_Login_Placeholders</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC03_AccountLogout" class="method navigator-link" hash-for-method="verify_ProperMessageAfterLogout">verify_ProperMessageAfterLogout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC01_AccountRegistration" class="method navigator-link" hash-for-method="verify_account_reg_invalid_fname(ghkw020ea78e03@gmail.com, 9447975642, liya)*, shaji)">verify_account_reg_invalid_fname(ghkw020ea78e03@gmail.com, 9447975642, liya)*, shaji)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC01_AccountRegistration" class="method navigator-link" hash-for-method="verify_account_reg_invalid_lname(zakaria.witt@outlook.com, 9447975642, liya, shaji((&amp;)">verify_account_reg_invalid_lname(zakaria.witt@outlook.com, 9447975642, liya, shaji((&)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC01_AccountRegistration" class="method navigator-link" hash-for-method="verify_account_registration">verify_account_registration</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC02_AccountLogin" class="method navigator-link" hash-for-method="verify_login_EmptyPwd">verify_login_EmptyPwd</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC02_AccountLogin" class="method navigator-link" hash-for-method="verify_login_EmptyUN">verify_login_EmptyUN</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC02_AccountLogin" class="method navigator-link" hash-for-method="verify_login_NotRegisteredUsername">verify_login_NotRegisteredUsername</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC02_AccountLogin" class="method navigator-link" hash-for-method="verify_login_ValidCredentials">verify_login_ValidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC02_AccountLogin" class="method navigator-link" hash-for-method="verify_login_WrongPwd">verify_login_WrongPwd</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC02_AccountLogin" class="method navigator-link" hash-for-method="verify_login_navigation_MyAccount">verify_login_navigation_MyAccount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC02_AccountLogin" class="method navigator-link" hash-for-method="verify_login_navigation_RightColumn">verify_login_navigation_RightColumn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC02_AccountLogin" class="method navigator-link" hash-for-method="verify_login_navigation_link">verify_login_navigation_link</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC01_AccountRegistration" class="method navigator-link" hash-for-method="verify_navigation2_reg">verify_navigation2_reg</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC01_AccountRegistration" class="method navigator-link" hash-for-method="verify_navigation3_reg">verify_navigation3_reg</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC05_Search" class="method navigator-link" hash-for-method="verify_navigation_fromSiteMap">verify_navigation_fromSiteMap</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC01_AccountRegistration" class="method navigator-link" hash-for-method="verify_navigation_registration">verify_navigation_registration</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC06_ProductDetails" class="method navigator-link" hash-for-method="verify_productDisplayFromAddToCartImg">verify_productDisplayFromAddToCartImg</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC06_ProductDetails" class="method navigator-link" hash-for-method="verify_productDisplayFromConfirmOrder">verify_productDisplayFromConfirmOrder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC06_ProductDetails" class="method navigator-link" hash-for-method="verify_productDisplayFromDropdown">verify_productDisplayFromDropdown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC06_ProductDetails" class="method navigator-link" hash-for-method="verify_productDisplayFromWishListImg">verify_productDisplayFromWishListImg</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC06_ProductDetails" class="method navigator-link" hash-for-method="verify_productDisplayFromWishListName">verify_productDisplayFromWishListName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC05_Search" class="method navigator-link" hash-for-method="verify_search_AfterLogin">verify_search_AfterLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC05_Search" class="method navigator-link" hash-for-method="verify_search_emptySearchfield">verify_search_emptySearchfield</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC05_Search" class="method navigator-link" hash-for-method="verify_search_emptySearchfield02">verify_search_emptySearchfield02</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC05_Search" class="method navigator-link" hash-for-method="verify_search_invalidProduct">verify_search_invalidProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC05_Search" class="method navigator-link" hash-for-method="verify_search_validProduct">verify_search_validProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testCases.TC01_AccountRegistration</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAccReg_Keyboard">
+                  </a> <!-- verifyAccReg_Keyboard -->
+                  <span class="method-name">verifyAccReg_Keyboard</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Your Account Has Been Created!] but found [no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h1[normalize-space()=&apos;Your Account Has Been Created!&apos;]&quot;}
+  (Session info: chrome=140.0.7339.82)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [338d1172cad94a8088e0a7c436b30b95, findElement {using=xpath, value=//h1[normalize-space()=&apos;Your Account Has Been Created!&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.82, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55033}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55033/devtoo..., se:cdpVersion: 140.0.7339.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 338d1172cad94a8088e0a7c436b30b95]
+	at testCases.TC01_AccountRegistration.verifyAccReg_Keyboard(TC01_AccountRegistration.java:699)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testCases.TC03_AccountLogout</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogout_Browseback">
+                  </a> <!-- verifyLogout_Browseback -->
+                  <span class="method-name">verifyLogout_Browseback</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at testCases.TC03_AccountLogout.verifyLogout_Browseback(TC03_AccountLogout.java:131)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 38 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testCases.TC02_AccountLogin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyOpeningBrowserWithoutLoggingOut">
+                  </a> <!-- verifyOpeningBrowserWithoutLoggingOut -->
+                  <span class="method-name">verifyOpeningBrowserWithoutLoggingOut</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=140.0.7339.82)
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9be94fb0d7d0aba2a84e7352ae2295cd, clickElement {id=f.A6074833957768B20A57BA9FA1CE5D54.d.3552CB725521361D4E33E9567498C4E3.e.583}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.82, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61182}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61182/devtoo..., se:cdpVersion: 140.0.7339.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (9be94fb0d7d0aba2a84e7352ae2295cd)] -&gt; xpath: //ul[@class=&apos;dropdown-menu dropdown-menu-right&apos;]//a[normalize-space()=&apos;Login&apos;]]
+Session ID: 9be94fb0d7d0aba2a84e7352ae2295cd
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy27.click(Unknown Source)
+	at pageObjects.HomePage.clicklogin(HomePage.java:99)
+	at testCases.TC02_AccountLogin.verifyOpeningBrowserWithoutLoggingOut(TC02_AccountLogin.java:413)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 39 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC04_ForgotPassword</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyForgotPwd_AskValidEmail">
+                  </a> <!-- verifyForgotPwd_AskValidEmail -->
+                  <span class="method-name">verifyForgotPwd_AskValidEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyForgotPwd_FailureMsg">
+                  </a> <!-- verifyForgotPwd_FailureMsg -->
+                  <span class="method-name">verifyForgotPwd_FailureMsg</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyForgotPwd_FailureMsgIfNoEmail">
+                  </a> <!-- verifyForgotPwd_FailureMsgIfNoEmail -->
+                  <span class="method-name">verifyForgotPwd_FailureMsgIfNoEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyForgotPwd_Placeholder_email">
+                  </a> <!-- verifyForgotPwd_Placeholder_email -->
+                  <span class="method-name">verifyForgotPwd_Placeholder_email</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyForgotPwd_SuccessMsg">
+                  </a> <!-- verifyForgotPwd_SuccessMsg -->
+                  <span class="method-name">verifyForgotPwd_SuccessMsg</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyForgotPwd_fromLoginPage">
+                  </a> <!-- verifyForgotPwd_fromLoginPage -->
+                  <span class="method-name">verifyForgotPwd_fromLoginPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyForgotPwd_fromRightColumn">
+                  </a> <!-- verifyForgotPwd_fromRightColumn -->
+                  <span class="method-name">verifyForgotPwd_fromRightColumn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyForgotPwd_loggingInAfterReset">
+                  </a> <!-- verifyForgotPwd_loggingInAfterReset -->
+                  <span class="method-name">verifyForgotPwd_loggingInAfterReset</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC05_Search</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyListAndGridViews_MultipleProducts">
+                  </a> <!-- verifyListAndGridViews_MultipleProducts -->
+                  <span class="method-name">verifyListAndGridViews_MultipleProducts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyListView_MultipleProducts">
+                  </a> <!-- verifyListView_MultipleProducts -->
+                  <span class="method-name">verifyListView_MultipleProducts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyNavigation_ProductComparePage">
+                  </a> <!-- verifyNavigation_ProductComparePage -->
+                  <span class="method-name">verifyNavigation_ProductComparePage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPlaceholders">
+                  </a> <!-- verifyPlaceholders -->
+                  <span class="method-name">verifyPlaceholders</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyWithoutCheckingSearchInProductDescription">
+                  </a> <!-- verifyWithoutCheckingSearchInProductDescription -->
+                  <span class="method-name">verifyWithoutCheckingSearchInProductDescription</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyWithoutCheckingSearchInSubCategories">
+                  </a> <!-- verifyWithoutCheckingSearchInSubCategories -->
+                  <span class="method-name">verifyWithoutCheckingSearchInSubCategories</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_navigation_fromSiteMap">
+                  </a> <!-- verify_navigation_fromSiteMap -->
+                  <span class="method-name">verify_navigation_fromSiteMap</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_search_AfterLogin">
+                  </a> <!-- verify_search_AfterLogin -->
+                  <span class="method-name">verify_search_AfterLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_search_emptySearchfield">
+                  </a> <!-- verify_search_emptySearchfield -->
+                  <span class="method-name">verify_search_emptySearchfield</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_search_emptySearchfield02">
+                  </a> <!-- verify_search_emptySearchfield02 -->
+                  <span class="method-name">verify_search_emptySearchfield02</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_search_invalidProduct">
+                  </a> <!-- verify_search_invalidProduct -->
+                  <span class="method-name">verify_search_invalidProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_search_validProduct">
+                  </a> <!-- verify_search_validProduct -->
+                  <span class="method-name">verify_search_validProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC06_ProductDetails</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_AddToCartFromProductDisplay">
+                  </a> <!-- verify_AddToCartFromProductDisplay -->
+                  <span class="method-name">verify_AddToCartFromProductDisplay</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_productDisplayFromAddToCartImg">
+                  </a> <!-- verify_productDisplayFromAddToCartImg -->
+                  <span class="method-name">verify_productDisplayFromAddToCartImg</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_productDisplayFromConfirmOrder">
+                  </a> <!-- verify_productDisplayFromConfirmOrder -->
+                  <span class="method-name">verify_productDisplayFromConfirmOrder</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_productDisplayFromDropdown">
+                  </a> <!-- verify_productDisplayFromDropdown -->
+                  <span class="method-name">verify_productDisplayFromDropdown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_productDisplayFromWishListImg">
+                  </a> <!-- verify_productDisplayFromWishListImg -->
+                  <span class="method-name">verify_productDisplayFromWishListImg</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_productDisplayFromWishListName">
+                  </a> <!-- verify_productDisplayFromWishListName -->
+                  <span class="method-name">verify_productDisplayFromWishListName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC01_AccountRegistration</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAccReg_PrivacyPolicy">
+                  </a> <!-- verifyAccReg_PrivacyPolicy -->
+                  <span class="method-name">verifyAccReg_PrivacyPolicy</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAccReg_newsletterNo">
+                  </a> <!-- verifyAccReg_newsletterNo -->
+                  <span class="method-name">verifyAccReg_newsletterNo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAccReg_newsletterYes">
+                  </a> <!-- verifyAccReg_newsletterYes -->
+                  <span class="method-name">verifyAccReg_newsletterYes</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAccReg_notGivingAllMandatoryDetails">
+                  </a> <!-- verifyAccReg_notGivingAllMandatoryDetails -->
+                  <span class="method-name">verifyAccReg_notGivingAllMandatoryDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAccReg_notGivingAllMandatoryDetails2">
+                  </a> <!-- verifyAccReg_notGivingAllMandatoryDetails2 -->
+                  <span class="method-name">verifyAccReg_notGivingAllMandatoryDetails2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAccReg_onlySpaces">
+                  </a> <!-- verifyAccReg_onlySpaces -->
+                  <span class="method-name">verifyAccReg_onlySpaces</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAccReg_onlySpaces2">
+                  </a> <!-- verifyAccReg_onlySpaces2 -->
+                  <span class="method-name">verifyAccReg_onlySpaces2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAccReg_placeholders">
+                  </a> <!-- verifyAccReg_placeholders -->
+                  <span class="method-name">verifyAccReg_placeholders</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAccountReg_AlreadyRegEmail(jai.hopper@msn.com, 944683642, luiuyh, ghgh)">
+                  </a> <!-- verifyAccountReg_AlreadyRegEmail(jai.hopper@msn.com, 944683642, luiuyh, ghgh) -->
+                  <span class="method-name">verifyAccountReg_AlreadyRegEmail</span>
+                  <span class="parameters">(jai.hopper@msn.com,944683642,luiuyh,ghgh)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAccountReg_DiffPwd(n1ny1snmze@googlemail.com, 9446835642, baselal, k)">
+                  </a> <!-- verifyAccountReg_DiffPwd(n1ny1snmze@googlemail.com, 9446835642, baselal, k) -->
+                  <span class="method-name">verifyAccountReg_DiffPwd</span>
+                  <span class="parameters">(n1ny1snmze@googlemail.com,9446835642,baselal,k)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAccountReg_DiffPwd(maddison.wood@comcast.net, 9447975642, liya, shaji)">
+                  </a> <!-- verifyAccountReg_DiffPwd(maddison.wood@comcast.net, 9447975642, liya, shaji) -->
+                  <span class="method-name">verifyAccountReg_DiffPwd</span>
+                  <span class="parameters">(maddison.wood@comcast.net,9447975642,liya,shaji)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAccountReg_NotAgree(maddison.wood@comcast.net, 9447975642, liya, shaji)">
+                  </a> <!-- verifyAccountReg_NotAgree(maddison.wood@comcast.net, 9447975642, liya, shaji) -->
+                  <span class="method-name">verifyAccountReg_NotAgree</span>
+                  <span class="parameters">(maddison.wood@comcast.net,9447975642,liya,shaji)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAccountReg_NotAgree(n1ny1snmze@googlemail.com, 9446835642, baselal, k)">
+                  </a> <!-- verifyAccountReg_NotAgree(n1ny1snmze@googlemail.com, 9446835642, baselal, k) -->
+                  <span class="method-name">verifyAccountReg_NotAgree</span>
+                  <span class="parameters">(n1ny1snmze@googlemail.com,9446835642,baselal,k)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAccountReg_hiddenPwd">
+                  </a> <!-- verifyAccountReg_hiddenPwd -->
+                  <span class="method-name">verifyAccountReg_hiddenPwd</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAccountReg_invalidPwd(darrach.keith@googlemail.com, 944683642, luiuyh, fdg, ff)">
+                  </a> <!-- verifyAccountReg_invalidPwd(darrach.keith@googlemail.com, 944683642, luiuyh, fdg, ff) -->
+                  <span class="method-name">verifyAccountReg_invalidPwd</span>
+                  <span class="parameters">(darrach.keith@googlemail.com,944683642,luiuyh,fdg,ff)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAccountReg_invalid_email(7gqcw4fuinxw@hotmail.com, 9447975642, baselal, k)">
+                  </a> <!-- verifyAccountReg_invalid_email(7gqcw4fuinxw@hotmail.com, 9447975642, baselal, k) -->
+                  <span class="method-name">verifyAccountReg_invalid_email</span>
+                  <span class="parameters">(7gqcw4fuinxw@hotmail.com,9447975642,baselal,k)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAccountReg_invalid_phno(joshiah.baxter@hotmail.com, 21245, baselal, k)">
+                  </a> <!-- verifyAccountReg_invalid_phno(joshiah.baxter@hotmail.com, 21245, baselal, k) -->
+                  <span class="method-name">verifyAccountReg_invalid_phno</span>
+                  <span class="parameters">(joshiah.baxter@hotmail.com,21245,baselal,k)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_account_reg_invalid_fname(ghkw020ea78e03@gmail.com, 9447975642, liya)*, shaji)">
+                  </a> <!-- verify_account_reg_invalid_fname(ghkw020ea78e03@gmail.com, 9447975642, liya)*, shaji) -->
+                  <span class="method-name">verify_account_reg_invalid_fname</span>
+                  <span class="parameters">(ghkw020ea78e03@gmail.com,9447975642,liya)*,shaji)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_account_reg_invalid_lname(zakaria.witt@outlook.com, 9447975642, liya, shaji((&amp;)">
+                  </a> <!-- verify_account_reg_invalid_lname(zakaria.witt@outlook.com, 9447975642, liya, shaji((&) -->
+                  <span class="method-name">verify_account_reg_invalid_lname</span>
+                  <span class="parameters">(zakaria.witt@outlook.com,9447975642,liya,shaji((&)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_account_registration">
+                  </a> <!-- verify_account_registration -->
+                  <span class="method-name">verify_account_registration</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_navigation2_reg">
+                  </a> <!-- verify_navigation2_reg -->
+                  <span class="method-name">verify_navigation2_reg</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_navigation3_reg">
+                  </a> <!-- verify_navigation3_reg -->
+                  <span class="method-name">verify_navigation3_reg</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_navigation_registration">
+                  </a> <!-- verify_navigation_registration -->
+                  <span class="method-name">verify_navigation_registration</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC03_AccountLogout</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogoutNotDisplayedBeforeLoggingIn">
+                  </a> <!-- verifyLogoutNotDisplayedBeforeLoggingIn -->
+                  <span class="method-name">verifyLogoutNotDisplayedBeforeLoggingIn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogout_AfterLogin">
+                  </a> <!-- verifyLogout_AfterLogin -->
+                  <span class="method-name">verifyLogout_AfterLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogout_fromMyAccount">
+                  </a> <!-- verifyLogout_fromMyAccount -->
+                  <span class="method-name">verifyLogout_fromMyAccount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogout_fromRightColumn">
+                  </a> <!-- verifyLogout_fromRightColumn -->
+                  <span class="method-name">verifyLogout_fromRightColumn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_ProperMessageAfterLogout">
+                  </a> <!-- verify_ProperMessageAfterLogout -->
+                  <span class="method-name">verify_ProperMessageAfterLogout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC02_AccountLogin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogin_EmptyUN_PWD">
+                  </a> <!-- verifyLogin_EmptyUN_PWD -->
+                  <span class="method-name">verifyLogin_EmptyUN_PWD</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogin_OnlySpaces">
+                  </a> <!-- verifyLogin_OnlySpaces -->
+                  <span class="method-name">verifyLogin_OnlySpaces</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogin_PwdInPageSource">
+                  </a> <!-- verifyLogin_PwdInPageSource -->
+                  <span class="method-name">verifyLogin_PwdInPageSource</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogin_PwdToggled">
+                  </a> <!-- verifyLogin_PwdToggled -->
+                  <span class="method-name">verifyLogin_PwdToggled</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_ForgotPwd02">
+                  </a> <!-- verify_ForgotPwd02 -->
+                  <span class="method-name">verify_ForgotPwd02</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_ForgotPwd03">
+                  </a> <!-- verify_ForgotPwd03 -->
+                  <span class="method-name">verify_ForgotPwd03</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_ForgotPwdLink">
+                  </a> <!-- verify_ForgotPwdLink -->
+                  <span class="method-name">verify_ForgotPwdLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_ForgotPwdPage">
+                  </a> <!-- verify_ForgotPwdPage -->
+                  <span class="method-name">verify_ForgotPwdPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_Login_Placeholders">
+                  </a> <!-- verify_Login_Placeholders -->
+                  <span class="method-name">verify_Login_Placeholders</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_login_EmptyPwd">
+                  </a> <!-- verify_login_EmptyPwd -->
+                  <span class="method-name">verify_login_EmptyPwd</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_login_EmptyUN">
+                  </a> <!-- verify_login_EmptyUN -->
+                  <span class="method-name">verify_login_EmptyUN</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_login_NotRegisteredUsername">
+                  </a> <!-- verify_login_NotRegisteredUsername -->
+                  <span class="method-name">verify_login_NotRegisteredUsername</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_login_ValidCredentials">
+                  </a> <!-- verify_login_ValidCredentials -->
+                  <span class="method-name">verify_login_ValidCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_login_WrongPwd">
+                  </a> <!-- verify_login_WrongPwd -->
+                  <span class="method-name">verify_login_WrongPwd</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_login_navigation_MyAccount">
+                  </a> <!-- verify_login_navigation_MyAccount -->
+                  <span class="method-name">verify_login_navigation_MyAccount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_login_navigation_RightColumn">
+                  </a> <!-- verify_login_navigation_RightColumn -->
+                  <span class="method-name">verify_login_navigation_RightColumn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_login_navigation_link">
+                  </a> <!-- verify_login_navigation_link -->
+                  <span class="method-name">verify_login_navigation_link</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\user\eclipse-workspace\opencart12\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;utilities.ExtentReportManager&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;os&quot; value=&quot;Windows&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.TC02_AccountLogin&quot;/&gt;
+      &lt;class name=&quot;testCases.TC04_ForgotPassword&quot;/&gt;
+      &lt;class name=&quot;testCases.Test_base&quot;/&gt;
+      &lt;class name=&quot;testCases.TC03_AccountLogout&quot;/&gt;
+      &lt;class name=&quot;testCases.TC06_ProductDetails&quot;/&gt;
+      &lt;class name=&quot;testCases.TC05_Search&quot;/&gt;
+      &lt;class name=&quot;testCases.TC01_AccountRegistration&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (7 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">EndToEnd</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyForgotPwd_loggingInAfterReset</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyLogout_Browseback</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_AddToCartFromProductDisplay</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_navigation2_reg</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_productDisplayFromConfirmOrder</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_search_AfterLogin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Functional</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyAccReg_Keyboard</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyAccReg_newsletterNo</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyAccReg_newsletterYes</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyAccountReg_NotAgree</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyForgotPwd_fromLoginPage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyListAndGridViews_MultipleProducts</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyListView_MultipleProducts</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyLogin_PwdInPageSource</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyLogin_PwdToggled</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyLogoutNotDisplayedBeforeLoggingIn</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyLogout_AfterLogin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyLogout_Browseback</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyLogout_fromRightColumn</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyNavigation_ProductComparePage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyWithoutCheckingSearchInProductDescription</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyWithoutCheckingSearchInSubCategories</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_ForgotPwdLink</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_ForgotPwdPage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_account_registration</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_login_navigation_MyAccount</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_login_navigation_RightColumn</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_login_navigation_link</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_navigation2_reg</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_navigation3_reg</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_productDisplayFromAddToCartImg</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_productDisplayFromWishListImg</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_productDisplayFromWishListName</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_search_AfterLogin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_search_validProduct</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Negative</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyAccReg_notGivingAllMandatoryDetails</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyAccReg_notGivingAllMandatoryDetails2</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyAccReg_onlySpaces</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyAccReg_onlySpaces2</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyAccountReg_AlreadyRegEmail</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyAccountReg_DiffPwd</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyAccountReg_NotAgree</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyAccountReg_invalidPwd</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyAccountReg_invalid_email</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyAccountReg_invalid_phno</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyLogin_EmptyUN_PWD</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyLogin_OnlySpaces</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyLogout_Browseback</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyWithoutCheckingSearchInSubCategories</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_ForgotPwd02</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_ForgotPwd03</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_account_reg_invalid_fname</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_account_reg_invalid_lname</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_login_EmptyPwd</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_login_EmptyUN</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_login_NotRegisteredUsername</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_login_WrongPwd</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_search_emptySearchfield</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_search_emptySearchfield02</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_search_invalidProduct</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyAccReg_Keyboard</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyAccReg_newsletterNo</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyAccReg_newsletterYes</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyAccountReg_AlreadyRegEmail</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyForgotPwd_AskValidEmail</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyForgotPwd_fromLoginPage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyForgotPwd_fromRightColumn</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyForgotPwd_loggingInAfterReset</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyLogin_PwdInPageSource</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyLogout_AfterLogin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyLogout_Browseback</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyLogout_fromRightColumn</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyWithoutCheckingSearchInProductDescription</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyWithoutCheckingSearchInSubCategories</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_ForgotPwdLink</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_ForgotPwdPage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_account_registration</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_navigation2_reg</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_navigation3_reg</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_navigation_registration</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_search_AfterLogin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Regresssion</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyAccountReg_NotAgree</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Sanity</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyAccReg_newsletterNo</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyAccReg_newsletterYes</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyLogout_AfterLogin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyLogout_fromMyAccount</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyLogout_fromRightColumn</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_ForgotPwdPage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_login_ValidCredentials</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_login_navigation_RightColumn</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_login_navigation_link</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_navigation2_reg</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_navigation_fromSiteMap</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_navigation_registration</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_productDisplayFromDropdown</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_search_AfterLogin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_search_validProduct</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Security</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyAccountReg_hiddenPwd</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyLogin_PwdInPageSource</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyLogout_Browseback</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyLogout_fromMyAccount</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_AddToCartFromProductDisplay</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_account_registration</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_login_ValidCredentials</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">UI</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyAccReg_PrivacyPolicy</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyAccReg_placeholders</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyAccountReg_hiddenPwd</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyForgotPwd_FailureMsg</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyForgotPwd_FailureMsgIfNoEmail</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyForgotPwd_Placeholder_email</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyForgotPwd_SuccessMsg</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyLogin_PwdToggled</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyLogoutNotDisplayedBeforeLoggingIn</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyLogout_AfterLogin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyPlaceholders</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_Login_Placeholders</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_ProperMessageAfterLogout</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_navigation3_reg</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(74);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verify_productDisplayFromConfirmOrder')
+data.setCell(0, 2, 'testCases.TC06_ProductDetails')
+data.setCell(0, 3, 38415);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyAccReg_Keyboard')
+data.setCell(1, 2, 'testCases.TC01_AccountRegistration')
+data.setCell(1, 3, 37454);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyAccReg_onlySpaces2')
+data.setCell(2, 2, 'testCases.TC01_AccountRegistration')
+data.setCell(2, 3, 33005);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyAccReg_onlySpaces')
+data.setCell(3, 2, 'testCases.TC01_AccountRegistration')
+data.setCell(3, 3, 32987);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyAccReg_notGivingAllMandatoryDetails2')
+data.setCell(4, 2, 'testCases.TC01_AccountRegistration')
+data.setCell(4, 3, 32849);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verify_productDisplayFromWishListImg')
+data.setCell(5, 2, 'testCases.TC06_ProductDetails')
+data.setCell(5, 3, 32333);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verify_productDisplayFromWishListName')
+data.setCell(6, 2, 'testCases.TC06_ProductDetails')
+data.setCell(6, 3, 31036);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyAccountReg_NotAgree')
+data.setCell(7, 2, 'testCases.TC01_AccountRegistration')
+data.setCell(7, 3, 30904);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verify_account_reg_invalid_fname')
+data.setCell(8, 2, 'testCases.TC01_AccountRegistration')
+data.setCell(8, 3, 30419);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyAccountReg_NotAgree')
+data.setCell(9, 2, 'testCases.TC01_AccountRegistration')
+data.setCell(9, 3, 30415);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyAccountReg_DiffPwd')
+data.setCell(10, 2, 'testCases.TC01_AccountRegistration')
+data.setCell(10, 3, 30411);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verify_account_reg_invalid_lname')
+data.setCell(11, 2, 'testCases.TC01_AccountRegistration')
+data.setCell(11, 3, 30078);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyAccountReg_DiffPwd')
+data.setCell(12, 2, 'testCases.TC01_AccountRegistration')
+data.setCell(12, 3, 30038);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyAccountReg_invalid_email')
+data.setCell(13, 2, 'testCases.TC01_AccountRegistration')
+data.setCell(13, 3, 29992);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifyAccountReg_AlreadyRegEmail')
+data.setCell(14, 2, 'testCases.TC01_AccountRegistration')
+data.setCell(14, 3, 29981);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verifyAccountReg_invalidPwd')
+data.setCell(15, 2, 'testCases.TC01_AccountRegistration')
+data.setCell(15, 3, 29975);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verifyAccReg_notGivingAllMandatoryDetails')
+data.setCell(16, 2, 'testCases.TC01_AccountRegistration')
+data.setCell(16, 3, 29928);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'verifyAccountReg_invalid_phno')
+data.setCell(17, 2, 'testCases.TC01_AccountRegistration')
+data.setCell(17, 3, 29903);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'verify_productDisplayFromAddToCartImg')
+data.setCell(18, 2, 'testCases.TC06_ProductDetails')
+data.setCell(18, 3, 29456);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'verifyOpeningBrowserWithoutLoggingOut')
+data.setCell(19, 2, 'testCases.TC02_AccountLogin')
+data.setCell(19, 3, 20156);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'verifyForgotPwd_loggingInAfterReset')
+data.setCell(20, 2, 'testCases.TC04_ForgotPassword')
+data.setCell(20, 3, 18656);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'verifyNavigation_ProductComparePage')
+data.setCell(21, 2, 'testCases.TC05_Search')
+data.setCell(21, 3, 16851);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'verifyAccReg_newsletterNo')
+data.setCell(22, 2, 'testCases.TC01_AccountRegistration')
+data.setCell(22, 3, 16768);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'verifyAccReg_newsletterYes')
+data.setCell(23, 2, 'testCases.TC01_AccountRegistration')
+data.setCell(23, 3, 16364);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'verify_AddToCartFromProductDisplay')
+data.setCell(24, 2, 'testCases.TC06_ProductDetails')
+data.setCell(24, 3, 15425);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'verifyLogout_Browseback')
+data.setCell(25, 2, 'testCases.TC03_AccountLogout')
+data.setCell(25, 3, 12557);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'verify_account_registration')
+data.setCell(26, 2, 'testCases.TC01_AccountRegistration')
+data.setCell(26, 3, 11577);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'verifyListView_MultipleProducts')
+data.setCell(27, 2, 'testCases.TC05_Search')
+data.setCell(27, 3, 11244);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'verifyForgotPwd_FailureMsgIfNoEmail')
+data.setCell(28, 2, 'testCases.TC04_ForgotPassword')
+data.setCell(28, 3, 10709);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'verifyForgotPwd_SuccessMsg')
+data.setCell(29, 2, 'testCases.TC04_ForgotPassword')
+data.setCell(29, 3, 10464);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'verify_productDisplayFromDropdown')
+data.setCell(30, 2, 'testCases.TC06_ProductDetails')
+data.setCell(30, 3, 10319);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'verifyForgotPwd_FailureMsg')
+data.setCell(31, 2, 'testCases.TC04_ForgotPassword')
+data.setCell(31, 3, 10248);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'verifyLogout_fromMyAccount')
+data.setCell(32, 2, 'testCases.TC03_AccountLogout')
+data.setCell(32, 3, 9783);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'verify_search_AfterLogin')
+data.setCell(33, 2, 'testCases.TC05_Search')
+data.setCell(33, 3, 9601);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'verify_ProperMessageAfterLogout')
+data.setCell(34, 2, 'testCases.TC03_AccountLogout')
+data.setCell(34, 3, 8566);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'verify_search_validProduct')
+data.setCell(35, 2, 'testCases.TC05_Search')
+data.setCell(35, 3, 8489);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'verifyForgotPwd_fromRightColumn')
+data.setCell(36, 2, 'testCases.TC04_ForgotPassword')
+data.setCell(36, 3, 8450);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'verifyForgotPwd_AskValidEmail')
+data.setCell(37, 2, 'testCases.TC04_ForgotPassword')
+data.setCell(37, 3, 7440);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'verifyForgotPwd_Placeholder_email')
+data.setCell(38, 2, 'testCases.TC04_ForgotPassword')
+data.setCell(38, 3, 7124);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'verifyAccReg_PrivacyPolicy')
+data.setCell(39, 2, 'testCases.TC01_AccountRegistration')
+data.setCell(39, 3, 7057);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'verifyForgotPwd_fromLoginPage')
+data.setCell(40, 2, 'testCases.TC04_ForgotPassword')
+data.setCell(40, 3, 7006);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'verifyAccReg_placeholders')
+data.setCell(41, 2, 'testCases.TC01_AccountRegistration')
+data.setCell(41, 3, 6941);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'verifyAccountReg_hiddenPwd')
+data.setCell(42, 2, 'testCases.TC01_AccountRegistration')
+data.setCell(42, 3, 6583);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'verifyLogout_AfterLogin')
+data.setCell(43, 2, 'testCases.TC03_AccountLogout')
+data.setCell(43, 3, 6351);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'verify_login_ValidCredentials')
+data.setCell(44, 2, 'testCases.TC02_AccountLogin')
+data.setCell(44, 3, 5789);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'verify_search_invalidProduct')
+data.setCell(45, 2, 'testCases.TC05_Search')
+data.setCell(45, 3, 5447);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'verifyListAndGridViews_MultipleProducts')
+data.setCell(46, 2, 'testCases.TC05_Search')
+data.setCell(46, 3, 5431);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'verifyWithoutCheckingSearchInSubCategories')
+data.setCell(47, 2, 'testCases.TC05_Search')
+data.setCell(47, 3, 5396);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'verify_search_emptySearchfield')
+data.setCell(48, 2, 'testCases.TC05_Search')
+data.setCell(48, 3, 5365);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'verify_search_emptySearchfield02')
+data.setCell(49, 2, 'testCases.TC05_Search')
+data.setCell(49, 3, 5346);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'verifyWithoutCheckingSearchInProductDescription')
+data.setCell(50, 2, 'testCases.TC05_Search')
+data.setCell(50, 3, 5287);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'verifyLogout_fromRightColumn')
+data.setCell(51, 2, 'testCases.TC03_AccountLogout')
+data.setCell(51, 3, 5273);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'verify_navigation2_reg')
+data.setCell(52, 2, 'testCases.TC01_AccountRegistration')
+data.setCell(52, 3, 4668);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'verify_login_WrongPwd')
+data.setCell(53, 2, 'testCases.TC02_AccountLogin')
+data.setCell(53, 3, 4415);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'verify_navigation_registration')
+data.setCell(54, 2, 'testCases.TC01_AccountRegistration')
+data.setCell(54, 3, 3899);
+data.setCell(55, 0, 55)
+data.setCell(55, 1, 'verify_login_EmptyPwd')
+data.setCell(55, 2, 'testCases.TC02_AccountLogin')
+data.setCell(55, 3, 3878);
+data.setCell(56, 0, 56)
+data.setCell(56, 1, 'verifyLogin_EmptyUN_PWD')
+data.setCell(56, 2, 'testCases.TC02_AccountLogin')
+data.setCell(56, 3, 3512);
+data.setCell(57, 0, 57)
+data.setCell(57, 1, 'verifyLogin_OnlySpaces')
+data.setCell(57, 2, 'testCases.TC02_AccountLogin')
+data.setCell(57, 3, 3446);
+data.setCell(58, 0, 58)
+data.setCell(58, 1, 'verify_login_EmptyUN')
+data.setCell(58, 2, 'testCases.TC02_AccountLogin')
+data.setCell(58, 3, 3415);
+data.setCell(59, 0, 59)
+data.setCell(59, 1, 'verifyLogoutNotDisplayedBeforeLoggingIn')
+data.setCell(59, 2, 'testCases.TC03_AccountLogout')
+data.setCell(59, 3, 3178);
+data.setCell(60, 0, 60)
+data.setCell(60, 1, 'verify_login_NotRegisteredUsername')
+data.setCell(60, 2, 'testCases.TC02_AccountLogin')
+data.setCell(60, 3, 2870);
+data.setCell(61, 0, 61)
+data.setCell(61, 1, 'verifyPlaceholders')
+data.setCell(61, 2, 'testCases.TC05_Search')
+data.setCell(61, 3, 1717);
+data.setCell(62, 0, 62)
+data.setCell(62, 1, 'verify_login_navigation_link')
+data.setCell(62, 2, 'testCases.TC02_AccountLogin')
+data.setCell(62, 3, 1303);
+data.setCell(63, 0, 63)
+data.setCell(63, 1, 'verify_login_navigation_MyAccount')
+data.setCell(63, 2, 'testCases.TC02_AccountLogin')
+data.setCell(63, 3, 1141);
+data.setCell(64, 0, 64)
+data.setCell(64, 1, 'verifyLogin_PwdInPageSource')
+data.setCell(64, 2, 'testCases.TC02_AccountLogin')
+data.setCell(64, 3, 1081);
+data.setCell(65, 0, 65)
+data.setCell(65, 1, 'verifyLogin_PwdToggled')
+data.setCell(65, 2, 'testCases.TC02_AccountLogin')
+data.setCell(65, 3, 1074);
+data.setCell(66, 0, 66)
+data.setCell(66, 1, 'verify_ForgotPwdLink')
+data.setCell(66, 2, 'testCases.TC02_AccountLogin')
+data.setCell(66, 3, 958);
+data.setCell(67, 0, 67)
+data.setCell(67, 1, 'verify_ForgotPwd02')
+data.setCell(67, 2, 'testCases.TC02_AccountLogin')
+data.setCell(67, 3, 944);
+data.setCell(68, 0, 68)
+data.setCell(68, 1, 'verify_ForgotPwdPage')
+data.setCell(68, 2, 'testCases.TC02_AccountLogin')
+data.setCell(68, 3, 935);
+data.setCell(69, 0, 69)
+data.setCell(69, 1, 'verify_ForgotPwd03')
+data.setCell(69, 2, 'testCases.TC02_AccountLogin')
+data.setCell(69, 3, 811);
+data.setCell(70, 0, 70)
+data.setCell(70, 1, 'verify_navigation_fromSiteMap')
+data.setCell(70, 2, 'testCases.TC05_Search')
+data.setCell(70, 3, 772);
+data.setCell(71, 0, 71)
+data.setCell(71, 1, 'verify_navigation3_reg')
+data.setCell(71, 2, 'testCases.TC01_AccountRegistration')
+data.setCell(71, 3, 664);
+data.setCell(72, 0, 72)
+data.setCell(72, 1, 'verify_Login_Placeholders')
+data.setCell(72, 2, 'testCases.TC02_AccountLogin')
+data.setCell(72, 3, 537);
+data.setCell(73, 0, 73)
+data.setCell(73, 1, 'verify_login_navigation_RightColumn')
+data.setCell(73, 2, 'testCases.TC02_AccountLogin')
+data.setCell(73, 3, 477);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 16 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC02_AccountLogin</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(Windows, chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verify_login_navigation_link</span>
+                <span class="method-start">3938 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_login_navigation_RightColumn</span>
+                <span class="method-start">5259 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_login_navigation_MyAccount</span>
+                <span class="method-start">5738 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_login_ValidCredentials</span>
+                <span class="method-start">6879 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_login_NotRegisteredUsername</span>
+                <span class="method-start">12672 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_login_WrongPwd</span>
+                <span class="method-start">15543 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_login_EmptyPwd</span>
+                <span class="method-start">19959 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_login_EmptyUN</span>
+                <span class="method-start">23838 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyLogin_EmptyUN_PWD</span>
+                <span class="method-start">27254 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyLogin_PwdToggled</span>
+                <span class="method-start">30767 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyLogin_PwdInPageSource</span>
+                <span class="method-start">31841 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_ForgotPwdLink</span>
+                <span class="method-start">32922 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_ForgotPwdPage</span>
+                <span class="method-start">33881 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_ForgotPwd02</span>
+                <span class="method-start">34817 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_ForgotPwd03</span>
+                <span class="method-start">35763 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_Login_Placeholders</span>
+                <span class="method-start">36575 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyLogin_OnlySpaces</span>
+                <span class="method-start">37113 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyOpeningBrowserWithoutLoggingOut</span>
+                <span class="method-start">40561 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">60947 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC04_ForgotPassword</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(Windows, chrome)</span>
+                <span class="method-start">61509 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifyForgotPwd_fromLoginPage</span>
+                <span class="method-start">67385 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyForgotPwd_fromRightColumn</span>
+                <span class="method-start">74405 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyForgotPwd_AskValidEmail</span>
+                <span class="method-start">82855 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyForgotPwd_SuccessMsg</span>
+                <span class="method-start">90295 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyForgotPwd_FailureMsg</span>
+                <span class="method-start">100759 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyForgotPwd_FailureMsgIfNoEmail</span>
+                <span class="method-start">111007 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyForgotPwd_Placeholder_email</span>
+                <span class="method-start">121716 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyForgotPwd_loggingInAfterReset</span>
+                <span class="method-start">128840 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">147496 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC03_AccountLogout</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(Windows, chrome)</span>
+                <span class="method-start">147947 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifyLogout_AfterLogin</span>
+                <span class="method-start">150142 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyLogout_fromMyAccount</span>
+                <span class="method-start">156498 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyLogout_fromRightColumn</span>
+                <span class="method-start">166282 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyLogout_Browseback</span>
+                <span class="method-start">171555 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyLogoutNotDisplayedBeforeLoggingIn</span>
+                <span class="method-start">184302 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_ProperMessageAfterLogout</span>
+                <span class="method-start">187482 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">196048 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC06_ProductDetails</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(Windows, chrome)</span>
+                <span class="method-start">196766 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verify_productDisplayFromDropdown</span>
+                <span class="method-start">198900 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_productDisplayFromWishListImg</span>
+                <span class="method-start">209221 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_productDisplayFromWishListName</span>
+                <span class="method-start">241556 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_productDisplayFromAddToCartImg</span>
+                <span class="method-start">272593 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_productDisplayFromConfirmOrder</span>
+                <span class="method-start">302051 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_AddToCartFromProductDisplay</span>
+                <span class="method-start">340467 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">355892 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC05_Search</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(Windows, chrome)</span>
+                <span class="method-start">357149 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verify_navigation_fromSiteMap</span>
+                <span class="method-start">359942 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_search_validProduct</span>
+                <span class="method-start">360716 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_search_invalidProduct</span>
+                <span class="method-start">369205 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_search_emptySearchfield</span>
+                <span class="method-start">374652 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_search_emptySearchfield02</span>
+                <span class="method-start">380018 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_search_AfterLogin</span>
+                <span class="method-start">385365 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyWithoutCheckingSearchInProductDescription</span>
+                <span class="method-start">394966 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyWithoutCheckingSearchInSubCategories</span>
+                <span class="method-start">400253 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyPlaceholders</span>
+                <span class="method-start">405649 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyListView_MultipleProducts</span>
+                <span class="method-start">407380 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyListAndGridViews_MultipleProducts</span>
+                <span class="method-start">418624 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyNavigation_ProductComparePage</span>
+                <span class="method-start">424055 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">440906 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC01_AccountRegistration</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(Windows, chrome)</span>
+                <span class="method-start">442510 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verify_navigation_registration</span>
+                <span class="method-start">444822 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_account_registration</span>
+                <span class="method-start">448722 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAccountReg_invalid_email(7gqcw4fuinxw@hotmail.com, 9447975642, baselal, k)</span>
+                <span class="method-start">461411 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_account_reg_invalid_fname(ghkw020ea78e03@gmail.com, 9447975642, liya)*, shaji)</span>
+                <span class="method-start">491714 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_account_reg_invalid_lname(zakaria.witt@outlook.com, 9447975642, liya, shaji((&)</span>
+                <span class="method-start">522403 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAccountReg_invalid_phno(joshiah.baxter@hotmail.com, 21245, baselal, k)</span>
+                <span class="method-start">552695 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAccountReg_AlreadyRegEmail(jai.hopper@msn.com, 944683642, luiuyh, ghgh)</span>
+                <span class="method-start">582797 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAccountReg_invalidPwd(darrach.keith@googlemail.com, 944683642, luiuyh, fdg, ff)</span>
+                <span class="method-start">613037 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAccountReg_hiddenPwd</span>
+                <span class="method-start">643012 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAccountReg_DiffPwd(maddison.wood@comcast.net, 9447975642, liya, shaji)</span>
+                <span class="method-start">649897 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAccountReg_DiffPwd(n1ny1snmze@googlemail.com, 9446835642, baselal, k)</span>
+                <span class="method-start">679935 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAccountReg_NotAgree(maddison.wood@comcast.net, 9447975642, liya, shaji)</span>
+                <span class="method-start">710633 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAccountReg_NotAgree(n1ny1snmze@googlemail.com, 9446835642, baselal, k)</span>
+                <span class="method-start">741048 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAccReg_notGivingAllMandatoryDetails</span>
+                <span class="method-start">771952 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAccReg_notGivingAllMandatoryDetails2</span>
+                <span class="method-start">801880 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAccReg_newsletterYes</span>
+                <span class="method-start">834729 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAccReg_newsletterNo</span>
+                <span class="method-start">851094 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_navigation2_reg</span>
+                <span class="method-start">867864 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_navigation3_reg</span>
+                <span class="method-start">872532 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyAccReg_Keyboard</span>
+                <span class="method-start">873197 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAccReg_onlySpaces</span>
+                <span class="method-start">910805 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAccReg_onlySpaces2</span>
+                <span class="method-start">943792 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAccReg_placeholders</span>
+                <span class="method-start">976797 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAccReg_PrivacyPolicy</span>
+                <span class="method-start">983738 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">990796 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

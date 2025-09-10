@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="edgetest(failed)">
+    <parameter name="os" value="Windows"/>
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="testCases.TC02_AccountLogin">
+        <methods>
+          <include name="verifyLogin_EmptyUN_PWD"/>
+          <include name="verify_login_ValidCredentials"/>
+          <include name="verify_login_EmptyPwd"/>
+          <include name="verify_login_EmptyUN"/>
+          <include name="verify_login_WrongPwd"/>
+          <include name="setup"/>
+          <include name="verifyLogin_PwdToggled"/>
+          <include name="verify_Login_Placeholders"/>
+          <include name="verify_login_navigation_RightColumn"/>
+          <include name="verifyLogin_OnlySpaces"/>
+          <include name="verify_login_navigation_MyAccount"/>
+          <include name="verify_login_navigation_link"/>
+          <include name="verify_ForgotPwdLink"/>
+          <include name="verifyLogin_PwdInPageSource"/>
+          <include name="verify_login_NotRegisteredUsername"/>
+          <include name="verify_ForgotPwd02"/>
+          <include name="tearDown"/>
+          <include name="verify_ForgotPwdPage"/>
+          <include name="verify_ForgotPwd03"/>
+        </methods>
+      </class> <!-- testCases.TC02_AccountLogin -->
+    </classes>
+  </test> <!-- edgetest(failed) -->
+  <test thread-count="5" parallel="tests" name="chrometest(failed)">
+    <parameter name="os" value="Windows"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testCases.TC03_AccountLogout">
+        <methods>
+          <include name="verifyLogout_Browseback"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testCases.TC03_AccountLogout -->
+    </classes>
+  </test> <!-- chrometest(failed) -->
+  <test thread-count="5" parallel="tests" name="firefoxtest(failed)">
+    <parameter name="os" value="Windows"/>
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="testCases.TC03_AccountLogout">
+        <methods>
+          <include name="verifyLogout_Browseback"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testCases.TC03_AccountLogout -->
+    </classes>
+  </test> <!-- firefoxtest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

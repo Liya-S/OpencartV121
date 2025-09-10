@@ -1,0 +1,650 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>71/3/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Sep 11 01:03:12 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>992 seconds (992487 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testCases.TC02_AccountLogin.verifyOpeningBrowserWithoutLoggingOut()'><b>verifyOpeningBrowserWithoutLoggingOut</b><br>Test class: testCases.TC02_AccountLogin</td>
+<td><div><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=140.0.7339.82)
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9be94fb0d7d0aba2a84e7352ae2295cd, clickElement {id=f.A6074833957768B20A57BA9FA1CE5D54.d.3552CB725521361D4E33E9567498C4E3.e.583}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.82, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61182}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61182/devtoo..., se:cdpVersion: 140.0.7339.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (9be94fb0d7d0aba2a84e7352ae2295cd)] -&gt; xpath: //ul[@class=&apos;dropdown-menu dropdown-menu-right&apos;]//a[normalize-space()=&apos;Login&apos;]]
+Session ID: 9be94fb0d7d0aba2a84e7352ae2295cd
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy27.click(Unknown Source)
+	at pageObjects.HomePage.clicklogin(HomePage.java:99)
+	at testCases.TC02_AccountLogin.verifyOpeningBrowserWithoutLoggingOut(TC02_AccountLogin.java:413)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 39 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1074868579", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1074868579'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=140.0.7339.82)
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9be94fb0d7d0aba2a84e7352ae2295cd, clickElement {id=f.A6074833957768B20A57BA9FA1CE5D54.d.3552CB725521361D4E33E9567498C4E3.e.583}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.82, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61182}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61182/devtoo..., se:cdpVersion: 140.0.7339.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (9be94fb0d7d0aba2a84e7352ae2295cd)] -&gt; xpath: //ul[@class=&apos;dropdown-menu dropdown-menu-right&apos;]//a[normalize-space()=&apos;Login&apos;]]
+Session ID: 9be94fb0d7d0aba2a84e7352ae2295cd
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy27.click(Unknown Source)
+	at pageObjects.HomePage.clicklogin(HomePage.java:99)
+	at testCases.TC02_AccountLogin.verifyOpeningBrowserWithoutLoggingOut(TC02_AccountLogin.java:413)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>20</td>
+<td>testCases.TC02_AccountLogin@48f2bd5b</td></tr>
+<tr>
+<td title='testCases.TC01_AccountRegistration.verifyAccReg_Keyboard()'><b>verifyAccReg_Keyboard</b><br>Test class: testCases.TC01_AccountRegistration</td>
+<td><div><pre>java.lang.AssertionError: expected [Your Account Has Been Created!] but found [no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h1[normalize-space()=&apos;Your Account Has Been Created!&apos;]&quot;}
+  (Session info: chrome=140.0.7339.82)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [338d1172cad94a8088e0a7c436b30b95, findElement {using=xpath, value=//h1[normalize-space()=&apos;Your Account Has Been Created!&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.82, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55033}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55033/devtoo..., se:cdpVersion: 140.0.7339.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 338d1172cad94a8088e0a7c436b30b95]
+	at testCases.TC01_AccountRegistration.verifyAccReg_Keyboard(TC01_AccountRegistration.java:699)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace367698638", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace367698638'><pre>java.lang.AssertionError: expected [Your Account Has Been Created!] but found [no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h1[normalize-space()=&apos;Your Account Has Been Created!&apos;]&quot;}
+  (Session info: chrome=140.0.7339.82)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [338d1172cad94a8088e0a7c436b30b95, findElement {using=xpath, value=//h1[normalize-space()=&apos;Your Account Has Been Created!&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.82, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55033}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55033/devtoo..., se:cdpVersion: 140.0.7339.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 338d1172cad94a8088e0a7c436b30b95]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at testCases.TC01_AccountRegistration.verifyAccReg_Keyboard(TC01_AccountRegistration.java:699)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>37</td>
+<td>testCases.TC01_AccountRegistration@77888435</td></tr>
+<tr>
+<td title='testCases.TC03_AccountLogout.verifyLogout_Browseback()'><b>verifyLogout_Browseback</b><br>Test class: testCases.TC03_AccountLogout</td>
+<td><div><pre>java.lang.AssertionError: expected [false] but found [true]
+	at testCases.TC03_AccountLogout.verifyLogout_Browseback(TC03_AccountLogout.java:131)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 38 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1438594533", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1438594533'><pre>java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1079)
+	at org.testng.Assert.assertEquals(Assert.java:1043)
+	at org.testng.Assert.assertEquals(Assert.java:1089)
+	at testCases.TC03_AccountLogout.verifyLogout_Browseback(TC03_AccountLogout.java:131)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>12</td>
+<td>testCases.TC03_AccountLogout@4218d6a3</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testCases.TC02_AccountLogin.verify_login_NotRegisteredUsername()'><b>verify_login_NotRegisteredUsername</b><br>Test class: testCases.TC02_AccountLogin</td>
+<td></td>
+<td>2</td>
+<td>testCases.TC02_AccountLogin@48f2bd5b</td></tr>
+<tr>
+<td title='testCases.TC05_Search.verifyNavigation_ProductComparePage()'><b>verifyNavigation_ProductComparePage</b><br>Test class: testCases.TC05_Search</td>
+<td></td>
+<td>16</td>
+<td>testCases.TC05_Search@14cd1699</td></tr>
+<tr>
+<td title='testCases.TC02_AccountLogin.verify_ForgotPwdPage()'><b>verify_ForgotPwdPage</b><br>Test class: testCases.TC02_AccountLogin</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC02_AccountLogin@48f2bd5b</td></tr>
+<tr>
+<td title='testCases.TC03_AccountLogout.verifyLogout_fromRightColumn()'><b>verifyLogout_fromRightColumn</b><br>Test class: testCases.TC03_AccountLogout</td>
+<td></td>
+<td>5</td>
+<td>testCases.TC03_AccountLogout@4218d6a3</td></tr>
+<tr>
+<td title='testCases.TC02_AccountLogin.verify_ForgotPwd03()'><b>verify_ForgotPwd03</b><br>Test class: testCases.TC02_AccountLogin</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC02_AccountLogin@48f2bd5b</td></tr>
+<tr>
+<td title='testCases.TC01_AccountRegistration.verifyAccountReg_invalid_email()'><b>verifyAccountReg_invalid_email</b><br>Test class: testCases.TC01_AccountRegistration<br>Parameters: 7gqcw4fuinxw@hotmail.com, 9447975642, baselal, k</td>
+<td></td>
+<td>29</td>
+<td>testCases.TC01_AccountRegistration@77888435</td></tr>
+<tr>
+<td title='testCases.TC02_AccountLogin.verify_ForgotPwd02()'><b>verify_ForgotPwd02</b><br>Test class: testCases.TC02_AccountLogin</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC02_AccountLogin@48f2bd5b</td></tr>
+<tr>
+<td title='testCases.TC05_Search.verifyListView_MultipleProducts()'><b>verifyListView_MultipleProducts</b><br>Test class: testCases.TC05_Search</td>
+<td></td>
+<td>11</td>
+<td>testCases.TC05_Search@14cd1699</td></tr>
+<tr>
+<td title='testCases.TC05_Search.verify_search_emptySearchfield()'><b>verify_search_emptySearchfield</b><br>Test class: testCases.TC05_Search</td>
+<td></td>
+<td>5</td>
+<td>testCases.TC05_Search@14cd1699</td></tr>
+<tr>
+<td title='testCases.TC04_ForgotPassword.verifyForgotPwd_FailureMsgIfNoEmail()'><b>verifyForgotPwd_FailureMsgIfNoEmail</b><br>Test class: testCases.TC04_ForgotPassword</td>
+<td></td>
+<td>10</td>
+<td>testCases.TC04_ForgotPassword@55182842</td></tr>
+<tr>
+<td title='testCases.TC01_AccountRegistration.verify_navigation3_reg()'><b>verify_navigation3_reg</b><br>Test class: testCases.TC01_AccountRegistration</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC01_AccountRegistration@77888435</td></tr>
+<tr>
+<td title='testCases.TC02_AccountLogin.verify_login_navigation_MyAccount()'><b>verify_login_navigation_MyAccount</b><br>Test class: testCases.TC02_AccountLogin</td>
+<td></td>
+<td>1</td>
+<td>testCases.TC02_AccountLogin@48f2bd5b</td></tr>
+<tr>
+<td title='testCases.TC04_ForgotPassword.verifyForgotPwd_SuccessMsg()'><b>verifyForgotPwd_SuccessMsg</b><br>Test class: testCases.TC04_ForgotPassword</td>
+<td></td>
+<td>10</td>
+<td>testCases.TC04_ForgotPassword@55182842</td></tr>
+<tr>
+<td title='testCases.TC01_AccountRegistration.verifyAccReg_notGivingAllMandatoryDetails()'><b>verifyAccReg_notGivingAllMandatoryDetails</b><br>Test class: testCases.TC01_AccountRegistration</td>
+<td></td>
+<td>29</td>
+<td>testCases.TC01_AccountRegistration@77888435</td></tr>
+<tr>
+<td title='testCases.TC05_Search.verifyListAndGridViews_MultipleProducts()'><b>verifyListAndGridViews_MultipleProducts</b><br>Test class: testCases.TC05_Search</td>
+<td></td>
+<td>5</td>
+<td>testCases.TC05_Search@14cd1699</td></tr>
+<tr>
+<td title='testCases.TC04_ForgotPassword.verifyForgotPwd_loggingInAfterReset()'><b>verifyForgotPwd_loggingInAfterReset</b><br>Test class: testCases.TC04_ForgotPassword</td>
+<td></td>
+<td>18</td>
+<td>testCases.TC04_ForgotPassword@55182842</td></tr>
+<tr>
+<td title='testCases.TC02_AccountLogin.verify_Login_Placeholders()'><b>verify_Login_Placeholders</b><br>Test class: testCases.TC02_AccountLogin</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC02_AccountLogin@48f2bd5b</td></tr>
+<tr>
+<td title='testCases.TC05_Search.verifyWithoutCheckingSearchInProductDescription()'><b>verifyWithoutCheckingSearchInProductDescription</b><br>Test class: testCases.TC05_Search</td>
+<td></td>
+<td>5</td>
+<td>testCases.TC05_Search@14cd1699</td></tr>
+<tr>
+<td title='testCases.TC01_AccountRegistration.verifyAccountReg_invalid_phno()'><b>verifyAccountReg_invalid_phno</b><br>Test class: testCases.TC01_AccountRegistration<br>Parameters: joshiah.baxter@hotmail.com, 21245, baselal, k</td>
+<td></td>
+<td>29</td>
+<td>testCases.TC01_AccountRegistration@77888435</td></tr>
+<tr>
+<td title='testCases.TC01_AccountRegistration.verify_account_registration()'><b>verify_account_registration</b><br>Test class: testCases.TC01_AccountRegistration</td>
+<td></td>
+<td>11</td>
+<td>testCases.TC01_AccountRegistration@77888435</td></tr>
+<tr>
+<td title='testCases.TC04_ForgotPassword.verifyForgotPwd_FailureMsg()'><b>verifyForgotPwd_FailureMsg</b><br>Test class: testCases.TC04_ForgotPassword</td>
+<td></td>
+<td>10</td>
+<td>testCases.TC04_ForgotPassword@55182842</td></tr>
+<tr>
+<td title='testCases.TC06_ProductDetails.verify_AddToCartFromProductDisplay()'><b>verify_AddToCartFromProductDisplay</b><br>Test class: testCases.TC06_ProductDetails</td>
+<td></td>
+<td>15</td>
+<td>testCases.TC06_ProductDetails@76505305</td></tr>
+<tr>
+<td title='testCases.TC04_ForgotPassword.verifyForgotPwd_fromLoginPage()'><b>verifyForgotPwd_fromLoginPage</b><br>Test class: testCases.TC04_ForgotPassword</td>
+<td></td>
+<td>7</td>
+<td>testCases.TC04_ForgotPassword@55182842</td></tr>
+<tr>
+<td title='testCases.TC01_AccountRegistration.verify_account_reg_invalid_fname()'><b>verify_account_reg_invalid_fname</b><br>Test class: testCases.TC01_AccountRegistration<br>Parameters: ghkw020ea78e03@gmail.com, 9447975642, liya)*, shaji</td>
+<td></td>
+<td>30</td>
+<td>testCases.TC01_AccountRegistration@77888435</td></tr>
+<tr>
+<td title='testCases.TC01_AccountRegistration.verifyAccReg_newsletterYes()'><b>verifyAccReg_newsletterYes</b><br>Test class: testCases.TC01_AccountRegistration</td>
+<td></td>
+<td>16</td>
+<td>testCases.TC01_AccountRegistration@77888435</td></tr>
+<tr>
+<td title='testCases.TC02_AccountLogin.verify_login_EmptyPwd()'><b>verify_login_EmptyPwd</b><br>Test class: testCases.TC02_AccountLogin</td>
+<td></td>
+<td>3</td>
+<td>testCases.TC02_AccountLogin@48f2bd5b</td></tr>
+<tr>
+<td title='testCases.TC01_AccountRegistration.verifyAccountReg_DiffPwd()'><b>verifyAccountReg_DiffPwd</b><br>Test class: testCases.TC01_AccountRegistration<br>Parameters: n1ny1snmze@googlemail.com, 9446835642, baselal, k</td>
+<td></td>
+<td>30</td>
+<td>testCases.TC01_AccountRegistration@77888435</td></tr>
+<tr>
+<td title='testCases.TC01_AccountRegistration.verifyAccountReg_AlreadyRegEmail()'><b>verifyAccountReg_AlreadyRegEmail</b><br>Test class: testCases.TC01_AccountRegistration<br>Parameters: jai.hopper@msn.com, 944683642, luiuyh, ghgh</td>
+<td></td>
+<td>29</td>
+<td>testCases.TC01_AccountRegistration@77888435</td></tr>
+<tr>
+<td title='testCases.TC02_AccountLogin.verifyLogin_OnlySpaces()'><b>verifyLogin_OnlySpaces</b><br>Test class: testCases.TC02_AccountLogin</td>
+<td></td>
+<td>3</td>
+<td>testCases.TC02_AccountLogin@48f2bd5b</td></tr>
+<tr>
+<td title='testCases.TC03_AccountLogout.verifyLogoutNotDisplayedBeforeLoggingIn()'><b>verifyLogoutNotDisplayedBeforeLoggingIn</b><br>Test class: testCases.TC03_AccountLogout</td>
+<td></td>
+<td>3</td>
+<td>testCases.TC03_AccountLogout@4218d6a3</td></tr>
+<tr>
+<td title='testCases.TC02_AccountLogin.verify_login_navigation_link()'><b>verify_login_navigation_link</b><br>Test class: testCases.TC02_AccountLogin</td>
+<td></td>
+<td>1</td>
+<td>testCases.TC02_AccountLogin@48f2bd5b</td></tr>
+<tr>
+<td title='testCases.TC04_ForgotPassword.verifyForgotPwd_AskValidEmail()'><b>verifyForgotPwd_AskValidEmail</b><br>Test class: testCases.TC04_ForgotPassword</td>
+<td></td>
+<td>7</td>
+<td>testCases.TC04_ForgotPassword@55182842</td></tr>
+<tr>
+<td title='testCases.TC05_Search.verify_navigation_fromSiteMap()'><b>verify_navigation_fromSiteMap</b><br>Test class: testCases.TC05_Search</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC05_Search@14cd1699</td></tr>
+<tr>
+<td title='testCases.TC01_AccountRegistration.verifyAccReg_notGivingAllMandatoryDetails2()'><b>verifyAccReg_notGivingAllMandatoryDetails2</b><br>Test class: testCases.TC01_AccountRegistration</td>
+<td></td>
+<td>32</td>
+<td>testCases.TC01_AccountRegistration@77888435</td></tr>
+<tr>
+<td title='testCases.TC02_AccountLogin.verify_ForgotPwdLink()'><b>verify_ForgotPwdLink</b><br>Test class: testCases.TC02_AccountLogin</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC02_AccountLogin@48f2bd5b</td></tr>
+<tr>
+<td title='testCases.TC05_Search.verify_search_emptySearchfield02()'><b>verify_search_emptySearchfield02</b><br>Test class: testCases.TC05_Search</td>
+<td></td>
+<td>5</td>
+<td>testCases.TC05_Search@14cd1699</td></tr>
+<tr>
+<td title='testCases.TC06_ProductDetails.verify_productDisplayFromDropdown()'><b>verify_productDisplayFromDropdown</b><br>Test class: testCases.TC06_ProductDetails</td>
+<td></td>
+<td>10</td>
+<td>testCases.TC06_ProductDetails@76505305</td></tr>
+<tr>
+<td title='testCases.TC03_AccountLogout.verifyLogout_fromMyAccount()'><b>verifyLogout_fromMyAccount</b><br>Test class: testCases.TC03_AccountLogout</td>
+<td></td>
+<td>9</td>
+<td>testCases.TC03_AccountLogout@4218d6a3</td></tr>
+<tr>
+<td title='testCases.TC06_ProductDetails.verify_productDisplayFromAddToCartImg()'><b>verify_productDisplayFromAddToCartImg</b><br>Test class: testCases.TC06_ProductDetails</td>
+<td></td>
+<td>29</td>
+<td>testCases.TC06_ProductDetails@76505305</td></tr>
+<tr>
+<td title='testCases.TC04_ForgotPassword.verifyForgotPwd_Placeholder_email()'><b>verifyForgotPwd_Placeholder_email</b><br>Test class: testCases.TC04_ForgotPassword</td>
+<td></td>
+<td>7</td>
+<td>testCases.TC04_ForgotPassword@55182842</td></tr>
+<tr>
+<td title='testCases.TC05_Search.verify_search_validProduct()'><b>verify_search_validProduct</b><br>Test class: testCases.TC05_Search</td>
+<td></td>
+<td>8</td>
+<td>testCases.TC05_Search@14cd1699</td></tr>
+<tr>
+<td title='testCases.TC02_AccountLogin.verify_login_WrongPwd()'><b>verify_login_WrongPwd</b><br>Test class: testCases.TC02_AccountLogin</td>
+<td></td>
+<td>4</td>
+<td>testCases.TC02_AccountLogin@48f2bd5b</td></tr>
+<tr>
+<td title='testCases.TC01_AccountRegistration.verifyAccountReg_NotAgree()'><b>verifyAccountReg_NotAgree</b><br>Test class: testCases.TC01_AccountRegistration<br>Parameters: maddison.wood@comcast.net, 9447975642, liya, shaji</td>
+<td></td>
+<td>30</td>
+<td>testCases.TC01_AccountRegistration@77888435</td></tr>
+<tr>
+<td title='testCases.TC02_AccountLogin.verify_login_EmptyUN()'><b>verify_login_EmptyUN</b><br>Test class: testCases.TC02_AccountLogin</td>
+<td></td>
+<td>3</td>
+<td>testCases.TC02_AccountLogin@48f2bd5b</td></tr>
+<tr>
+<td title='testCases.TC05_Search.verify_search_AfterLogin()'><b>verify_search_AfterLogin</b><br>Test class: testCases.TC05_Search</td>
+<td></td>
+<td>9</td>
+<td>testCases.TC05_Search@14cd1699</td></tr>
+<tr>
+<td title='testCases.TC01_AccountRegistration.verifyAccReg_onlySpaces2()'><b>verifyAccReg_onlySpaces2</b><br>Test class: testCases.TC01_AccountRegistration</td>
+<td></td>
+<td>33</td>
+<td>testCases.TC01_AccountRegistration@77888435</td></tr>
+<tr>
+<td title='testCases.TC02_AccountLogin.verifyLogin_EmptyUN_PWD()'><b>verifyLogin_EmptyUN_PWD</b><br>Test class: testCases.TC02_AccountLogin</td>
+<td></td>
+<td>3</td>
+<td>testCases.TC02_AccountLogin@48f2bd5b</td></tr>
+<tr>
+<td title='testCases.TC02_AccountLogin.verifyLogin_PwdToggled()'><b>verifyLogin_PwdToggled</b><br>Test class: testCases.TC02_AccountLogin</td>
+<td></td>
+<td>1</td>
+<td>testCases.TC02_AccountLogin@48f2bd5b</td></tr>
+<tr>
+<td title='testCases.TC01_AccountRegistration.verifyAccReg_onlySpaces()'><b>verifyAccReg_onlySpaces</b><br>Test class: testCases.TC01_AccountRegistration</td>
+<td></td>
+<td>32</td>
+<td>testCases.TC01_AccountRegistration@77888435</td></tr>
+<tr>
+<td title='testCases.TC05_Search.verifyPlaceholders()'><b>verifyPlaceholders</b><br>Test class: testCases.TC05_Search</td>
+<td></td>
+<td>1</td>
+<td>testCases.TC05_Search@14cd1699</td></tr>
+<tr>
+<td title='testCases.TC02_AccountLogin.verifyLogin_PwdInPageSource()'><b>verifyLogin_PwdInPageSource</b><br>Test class: testCases.TC02_AccountLogin</td>
+<td></td>
+<td>1</td>
+<td>testCases.TC02_AccountLogin@48f2bd5b</td></tr>
+<tr>
+<td title='testCases.TC01_AccountRegistration.verifyAccReg_PrivacyPolicy()'><b>verifyAccReg_PrivacyPolicy</b><br>Test class: testCases.TC01_AccountRegistration</td>
+<td></td>
+<td>7</td>
+<td>testCases.TC01_AccountRegistration@77888435</td></tr>
+<tr>
+<td title='testCases.TC02_AccountLogin.verify_login_ValidCredentials()'><b>verify_login_ValidCredentials</b><br>Test class: testCases.TC02_AccountLogin</td>
+<td></td>
+<td>5</td>
+<td>testCases.TC02_AccountLogin@48f2bd5b</td></tr>
+<tr>
+<td title='testCases.TC01_AccountRegistration.verifyAccountReg_invalidPwd()'><b>verifyAccountReg_invalidPwd</b><br>Test class: testCases.TC01_AccountRegistration<br>Parameters: darrach.keith@googlemail.com, 944683642, luiuyh, fdg, ff</td>
+<td></td>
+<td>29</td>
+<td>testCases.TC01_AccountRegistration@77888435</td></tr>
+<tr>
+<td title='testCases.TC06_ProductDetails.verify_productDisplayFromWishListImg()'><b>verify_productDisplayFromWishListImg</b><br>Test class: testCases.TC06_ProductDetails</td>
+<td></td>
+<td>32</td>
+<td>testCases.TC06_ProductDetails@76505305</td></tr>
+<tr>
+<td title='testCases.TC01_AccountRegistration.verify_navigation2_reg()'><b>verify_navigation2_reg</b><br>Test class: testCases.TC01_AccountRegistration</td>
+<td></td>
+<td>4</td>
+<td>testCases.TC01_AccountRegistration@77888435</td></tr>
+<tr>
+<td title='testCases.TC05_Search.verify_search_invalidProduct()'><b>verify_search_invalidProduct</b><br>Test class: testCases.TC05_Search</td>
+<td></td>
+<td>5</td>
+<td>testCases.TC05_Search@14cd1699</td></tr>
+<tr>
+<td title='testCases.TC03_AccountLogout.verify_ProperMessageAfterLogout()'><b>verify_ProperMessageAfterLogout</b><br>Test class: testCases.TC03_AccountLogout</td>
+<td></td>
+<td>8</td>
+<td>testCases.TC03_AccountLogout@4218d6a3</td></tr>
+<tr>
+<td title='testCases.TC06_ProductDetails.verify_productDisplayFromWishListName()'><b>verify_productDisplayFromWishListName</b><br>Test class: testCases.TC06_ProductDetails</td>
+<td></td>
+<td>31</td>
+<td>testCases.TC06_ProductDetails@76505305</td></tr>
+<tr>
+<td title='testCases.TC06_ProductDetails.verify_productDisplayFromConfirmOrder()'><b>verify_productDisplayFromConfirmOrder</b><br>Test class: testCases.TC06_ProductDetails</td>
+<td></td>
+<td>38</td>
+<td>testCases.TC06_ProductDetails@76505305</td></tr>
+<tr>
+<td title='testCases.TC01_AccountRegistration.verify_account_reg_invalid_lname()'><b>verify_account_reg_invalid_lname</b><br>Test class: testCases.TC01_AccountRegistration<br>Parameters: zakaria.witt@outlook.com, 9447975642, liya, shaji((&</td>
+<td></td>
+<td>30</td>
+<td>testCases.TC01_AccountRegistration@77888435</td></tr>
+<tr>
+<td title='testCases.TC01_AccountRegistration.verify_navigation_registration()'><b>verify_navigation_registration</b><br>Test class: testCases.TC01_AccountRegistration</td>
+<td></td>
+<td>3</td>
+<td>testCases.TC01_AccountRegistration@77888435</td></tr>
+<tr>
+<td title='testCases.TC01_AccountRegistration.verifyAccountReg_hiddenPwd()'><b>verifyAccountReg_hiddenPwd</b><br>Test class: testCases.TC01_AccountRegistration</td>
+<td></td>
+<td>6</td>
+<td>testCases.TC01_AccountRegistration@77888435</td></tr>
+<tr>
+<td title='testCases.TC01_AccountRegistration.verifyAccReg_placeholders()'><b>verifyAccReg_placeholders</b><br>Test class: testCases.TC01_AccountRegistration</td>
+<td></td>
+<td>6</td>
+<td>testCases.TC01_AccountRegistration@77888435</td></tr>
+<tr>
+<td title='testCases.TC04_ForgotPassword.verifyForgotPwd_fromRightColumn()'><b>verifyForgotPwd_fromRightColumn</b><br>Test class: testCases.TC04_ForgotPassword</td>
+<td></td>
+<td>8</td>
+<td>testCases.TC04_ForgotPassword@55182842</td></tr>
+<tr>
+<td title='testCases.TC02_AccountLogin.verify_login_navigation_RightColumn()'><b>verify_login_navigation_RightColumn</b><br>Test class: testCases.TC02_AccountLogin</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC02_AccountLogin@48f2bd5b</td></tr>
+<tr>
+<td title='testCases.TC03_AccountLogout.verifyLogout_AfterLogin()'><b>verifyLogout_AfterLogin</b><br>Test class: testCases.TC03_AccountLogout</td>
+<td></td>
+<td>6</td>
+<td>testCases.TC03_AccountLogout@4218d6a3</td></tr>
+<tr>
+<td title='testCases.TC01_AccountRegistration.verifyAccountReg_DiffPwd()'><b>verifyAccountReg_DiffPwd</b><br>Test class: testCases.TC01_AccountRegistration<br>Parameters: maddison.wood@comcast.net, 9447975642, liya, shaji</td>
+<td></td>
+<td>30</td>
+<td>testCases.TC01_AccountRegistration@77888435</td></tr>
+<tr>
+<td title='testCases.TC01_AccountRegistration.verifyAccReg_newsletterNo()'><b>verifyAccReg_newsletterNo</b><br>Test class: testCases.TC01_AccountRegistration</td>
+<td></td>
+<td>16</td>
+<td>testCases.TC01_AccountRegistration@77888435</td></tr>
+<tr>
+<td title='testCases.TC01_AccountRegistration.verifyAccountReg_NotAgree()'><b>verifyAccountReg_NotAgree</b><br>Test class: testCases.TC01_AccountRegistration<br>Parameters: n1ny1snmze@googlemail.com, 9446835642, baselal, k</td>
+<td></td>
+<td>30</td>
+<td>testCases.TC01_AccountRegistration@77888435</td></tr>
+<tr>
+<td title='testCases.TC05_Search.verifyWithoutCheckingSearchInSubCategories()'><b>verifyWithoutCheckingSearchInSubCategories</b><br>Test class: testCases.TC05_Search</td>
+<td></td>
+<td>5</td>
+<td>testCases.TC05_Search@14cd1699</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,543 @@
+17:34:10.602 [main] INFO  testCases.TC01_AccountRegistration - Clicked onn register link
+17:34:13.637 [main] INFO  testCases.TC01_AccountRegistration - Providing Customer Details
+17:34:17.596 [main] INFO  testCases.TC01_AccountRegistration - Validating registering an account by not filling all the essential fields
+17:34:37.986 [main] INFO  testCases.TC01_AccountRegistration - Finished Test13***
+17:34:37.992 [main] INFO  testCases.TC01_AccountRegistration - ***Starting Test 14***
+17:34:41.191 [main] INFO  testCases.TC01_AccountRegistration - Clicked on my account link
+17:34:41.690 [main] INFO  testCases.TC01_AccountRegistration - Clicked onn register link
+17:34:44.697 [main] INFO  testCases.TC01_AccountRegistration - Providing Customer Details
+17:34:51.502 [main] INFO  testCases.TC01_AccountRegistration - Validating registering an account by not filling all the essential fields
+17:35:11.557 [main] INFO  testCases.TC01_AccountRegistration - Finished Test14***
+17:35:11.569 [main] INFO  testCases.TC01_AccountRegistration - ***Starting Test 15***
+17:35:14.743 [main] INFO  testCases.TC01_AccountRegistration - Clicked on my account link
+17:35:15.179 [main] INFO  testCases.TC01_AccountRegistration - Clicked onn register link
+17:35:18.184 [main] INFO  testCases.TC01_AccountRegistration - Providing Customer Details
+17:35:26.755 [main] INFO  testCases.TC01_AccountRegistration - Validating registering an account by subscribing to newsletter option 
+17:35:27.694 [main] INFO  testCases.TC01_AccountRegistration - Finished Test15***
+17:35:27.696 [main] INFO  testCases.TC01_AccountRegistration - ***Starting Test 16***
+17:35:30.867 [main] INFO  testCases.TC01_AccountRegistration - Clicked on my account link
+17:35:31.360 [main] INFO  testCases.TC01_AccountRegistration - Clicked onn register link
+17:35:34.365 [main] INFO  testCases.TC01_AccountRegistration - Providing Customer Details
+17:35:42.936 [main] INFO  testCases.TC01_AccountRegistration - Validating registering an account by not subscribing to newsletter option
+17:35:43.921 [main] INFO  testCases.TC01_AccountRegistration - Finished Test16***
+17:35:43.923 [main] INFO  testCases.TC01_AccountRegistration - ***Starting Test 17***
+17:35:47.096 [main] INFO  testCases.TC01_AccountRegistration - Clicked on my account link
+17:35:47.521 [main] INFO  testCases.TC01_AccountRegistration - Clicked on my login link
+17:35:48.074 [main] INFO  testCases.TC01_AccountRegistration - Clicked on my Continue button under New Customer Link
+17:35:48.074 [main] INFO  testCases.TC01_AccountRegistration - Validating navigating to register link through my Account --> login --->Register
+17:35:48.130 [main] INFO  testCases.TC01_AccountRegistration - Finished Test17***
+17:35:48.131 [main] INFO  testCases.TC01_AccountRegistration - ***Starting Test 18***
+17:35:48.297 [main] INFO  testCases.TC01_AccountRegistration - Clicked on my account link
+17:35:48.669 [main] INFO  testCases.TC01_AccountRegistration - Clicked onn register link from right column
+17:35:48.669 [main] INFO  testCases.TC01_AccountRegistration - Validating navigating to Register from Right column option
+17:35:48.708 [main] INFO  testCases.TC01_AccountRegistration - Finished Test18***
+17:35:48.722 [main] INFO  testCases.TC01_AccountRegistration - ***Starting Test 19***
+17:35:52.412 [main] INFO  testCases.TC01_AccountRegistration - Clicked on my account link
+17:35:52.872 [main] INFO  testCases.TC01_AccountRegistration - Clicked onn register link
+17:35:55.884 [main] INFO  testCases.TC01_AccountRegistration - Providing Customer Details
+17:36:06.822 [main] INFO  testCases.TC01_AccountRegistration - Validating registering an account by using keyboard only.
+17:36:07.593 [main] INFO  testCases.TC01_AccountRegistration - Finished Test19***
+17:36:07.599 [main] INFO  testCases.TC01_AccountRegistration - ***Starting Test 20***
+17:36:10.765 [main] INFO  testCases.TC01_AccountRegistration - Clicked on my account link
+17:36:11.446 [main] INFO  testCases.TC01_AccountRegistration - Clicked onn register link
+17:36:14.451 [main] INFO  testCases.TC01_AccountRegistration - Providing only spaces for firstName and lastName textfields
+17:36:14.758 [main] INFO  testCases.TC01_AccountRegistration - Providing valid email, password
+17:36:21.988 [main] INFO  testCases.TC01_AccountRegistration - Validating registering by giving only spaces in the text fields.
+17:36:42.004 [main] INFO  testCases.TC01_AccountRegistration - Finished Test20***
+17:36:42.006 [main] INFO  testCases.TC01_AccountRegistration - ***Starting Test 21***
+17:36:45.197 [main] INFO  testCases.TC01_AccountRegistration - Clicked on my account link
+17:36:45.725 [main] INFO  testCases.TC01_AccountRegistration - Clicked onn register link
+17:36:48.741 [main] INFO  testCases.TC01_AccountRegistration - Providing Customer Details
+17:36:48.972 [main] INFO  testCases.TC01_AccountRegistration - Providing only spaces in email textfield
+17:36:56.294 [main] INFO  testCases.TC01_AccountRegistration - Validating registering by giving only spaces in the text fields--->email
+17:37:16.346 [main] INFO  testCases.TC01_AccountRegistration - Finished Test21***
+17:37:16.376 [main] INFO  testCases.TC01_AccountRegistration - ***Starting Test 22***
+17:37:20.145 [main] INFO  testCases.TC01_AccountRegistration - Clicked on my account link
+17:37:20.620 [main] INFO  testCases.TC01_AccountRegistration - Clicked onn register link
+17:37:23.630 [main] INFO  testCases.TC01_AccountRegistration - Getting placeholder of all textfields
+17:37:23.876 [main] INFO  testCases.TC01_AccountRegistration - Validating there is proper place holders in all the text fields
+17:37:23.876 [main] INFO  testCases.TC01_AccountRegistration - Finished Test22***
+17:37:23.880 [main] INFO  testCases.TC01_AccountRegistration - ***Starting Test 23***
+17:37:27.586 [main] INFO  testCases.TC01_AccountRegistration - Clicked on my account link
+17:37:28.031 [main] INFO  testCases.TC01_AccountRegistration - Clicked onn register link
+17:37:31.416 [main] INFO  testCases.TC01_AccountRegistration - Validating that on clicking privacy policy, proper privacy policy window is displayed 
+17:37:31.422 [main] INFO  testCases.TC01_AccountRegistration - Finished Test23***
+21:00:21.910 [main] INFO  testCases.TC02_AccountLogin - ********Starting TC02_AccountLogin********
+21:00:21.916 [main] INFO  testCases.TC02_AccountLogin - ***Starting Test 1***
+21:00:22.513 [main] INFO  testCases.TC02_AccountLogin - Clicked on my account link
+21:00:23.217 [main] INFO  testCases.TC02_AccountLogin - Clicked onn register link
+21:00:23.733 [main] INFO  testCases.TC02_AccountLogin - Clicked onn login link in register page
+21:00:23.849 [main] INFO  testCases.TC02_AccountLogin - Validating navigating to login page through login link in register page
+21:00:23.854 [main] INFO  testCases.TC02_AccountLogin - Finished Test1***
+21:00:23.895 [main] INFO  testCases.TC02_AccountLogin - ***Starting Test 2***
+21:00:24.307 [main] INFO  testCases.TC02_AccountLogin - Clicked on login link in right column
+21:00:24.384 [main] INFO  testCases.TC02_AccountLogin - Validating navigating to login from right column option
+21:00:24.384 [main] INFO  testCases.TC02_AccountLogin - Finished Test2***
+21:00:24.395 [main] INFO  testCases.TC02_AccountLogin - ***Starting Test 3***
+21:00:24.606 [main] INFO  testCases.TC02_AccountLogin - Clicked on my account link
+21:00:25.019 [main] INFO  testCases.TC02_AccountLogin - Clicked on my login link
+21:00:25.084 [main] INFO  testCases.TC02_AccountLogin - Validating logging in to the account through My Account --> login
+21:00:25.084 [main] INFO  testCases.TC02_AccountLogin - Finished Test3***
+21:00:25.087 [main] INFO  testCases.TC02_AccountLogin - ***Starting Test 4***
+21:00:25.854 [main] INFO  testCases.TC02_AccountLogin - Clicked on my account link
+21:00:26.269 [main] INFO  testCases.TC02_AccountLogin - Clicked on my login link
+21:00:26.269 [main] INFO  testCases.TC02_AccountLogin - Giving valid login credentials...
+21:00:29.839 [main] INFO  testCases.TC02_AccountLogin - Clicked on my account link
+21:00:31.905 [main] INFO  testCases.TC02_AccountLogin - Validating  logging into account by giving valid credentials	
+21:00:32.468 [main] INFO  testCases.TC02_AccountLogin - Finished Test4***
+21:00:32.476 [main] INFO  testCases.TC02_AccountLogin - ***Starting Test 5***
+21:00:32.703 [main] INFO  testCases.TC02_AccountLogin - Clicked on my account link
+21:00:33.104 [main] INFO  testCases.TC02_AccountLogin - Clicked on my login link
+21:00:33.104 [main] INFO  testCases.TC02_AccountLogin - Giving not registered username
+21:00:36.463 [main] INFO  testCases.TC02_AccountLogin - Clicked on my account link
+21:00:36.506 [main] INFO  testCases.TC02_AccountLogin - Validating logging into account by giving not registered username
+21:00:36.506 [main] INFO  testCases.TC02_AccountLogin - Finished Test5***
+21:00:36.512 [main] INFO  testCases.TC02_AccountLogin - ***Starting Test 6***
+21:00:37.181 [main] INFO  testCases.TC02_AccountLogin - Clicked on my account link
+21:00:37.620 [main] INFO  testCases.TC02_AccountLogin - Clicked on my login link
+21:00:37.622 [main] INFO  testCases.TC02_AccountLogin - Giving registered username with incorrect password
+21:00:40.973 [main] INFO  testCases.TC02_AccountLogin - Clicked on my account link
+21:00:41.008 [main] INFO  testCases.TC02_AccountLogin - Validating logging into account by giving registered username and incorrect password
+21:00:41.008 [main] INFO  testCases.TC02_AccountLogin - Finished Test6***
+21:00:41.019 [main] INFO  testCases.TC02_AccountLogin - ***Starting Test 7***
+21:00:41.703 [main] INFO  testCases.TC02_AccountLogin - Clicked on my account link
+21:00:42.214 [main] INFO  testCases.TC02_AccountLogin - Clicked on my login link
+21:00:42.214 [main] INFO  testCases.TC02_AccountLogin - Giving registered username with password textfield empty
+21:00:45.258 [main] INFO  testCases.TC02_AccountLogin - Clicked on my account link
+21:00:45.307 [main] INFO  testCases.TC02_AccountLogin - Validating logging into account by giving registered username and keeping password textfield empty
+21:00:45.307 [main] INFO  testCases.TC02_AccountLogin - Finished Test 7***
+21:00:45.307 [main] INFO  testCases.TC02_AccountLogin - ***Starting Test 8***
+21:00:45.975 [main] INFO  testCases.TC02_AccountLogin - Clicked on my account link
+21:00:46.515 [main] INFO  testCases.TC02_AccountLogin - Clicked on my login link
+21:00:46.524 [main] INFO  testCases.TC02_AccountLogin - Keeping username textfield empty
+21:00:49.146 [main] INFO  testCases.TC02_AccountLogin - Clicked on my account link
+21:00:49.187 [main] INFO  testCases.TC02_AccountLogin - Validating logging into account by giving password only and keeping username textfield empty
+21:00:49.195 [main] INFO  testCases.TC02_AccountLogin - Finished Test 8***
+21:00:49.198 [main] INFO  testCases.TC02_AccountLogin - ***Starting Test 9***
+21:00:49.876 [main] INFO  testCases.TC02_AccountLogin - Clicked on my account link
+21:00:50.393 [main] INFO  testCases.TC02_AccountLogin - Clicked on my login link
+21:00:50.393 [main] INFO  testCases.TC02_AccountLogin - Keeping username and email textfield empty
+21:00:53.452 [main] INFO  testCases.TC02_AccountLogin - Clicked on my account link
+21:00:53.497 [main] INFO  testCases.TC02_AccountLogin - Validating logging into account by keeping both the textfields empty
+21:00:53.497 [main] INFO  testCases.TC02_AccountLogin - Finished Test 9***
+21:00:53.505 [main] INFO  testCases.TC02_AccountLogin - ***Starting Test 11***
+21:00:54.197 [main] INFO  testCases.TC02_AccountLogin - Clicked on my account link
+21:00:54.689 [main] INFO  testCases.TC02_AccountLogin - Clicked on my login link
+21:00:54.689 [main] INFO  testCases.TC02_AccountLogin - Giving valid details
+21:00:55.098 [main] INFO  testCases.TC02_AccountLogin - Validating the text into the Password field is toggled to hide its visibility
+21:00:55.098 [main] INFO  testCases.TC02_AccountLogin - Finished Test 11***
+21:00:55.098 [main] INFO  testCases.TC02_AccountLogin - ***Starting Test 12***
+21:00:55.826 [main] INFO  testCases.TC02_AccountLogin - Clicked on my account link
+21:00:56.279 [main] INFO  testCases.TC02_AccountLogin - Clicked on my login link
+21:00:56.279 [main] INFO  testCases.TC02_AccountLogin - Giving valid details
+21:00:56.641 [main] INFO  testCases.TC02_AccountLogin - Validating the Password is not visible in the Page Source
+21:00:56.642 [main] INFO  testCases.TC02_AccountLogin - Finished Test 12***
+21:00:56.647 [main] INFO  testCases.TC02_AccountLogin - ***Starting Test 15***
+21:00:57.512 [main] INFO  testCases.TC02_AccountLogin - Clicked on my account link
+21:00:57.984 [main] INFO  testCases.TC02_AccountLogin - Clicked on my login link
+21:00:58.055 [main] INFO  testCases.TC02_AccountLogin - Validating forgot password link is provided in the login page
+21:00:58.055 [main] INFO  testCases.TC02_AccountLogin - Finished Test 15***
+21:00:58.064 [main] INFO  testCases.TC02_AccountLogin - ***Starting Test 16***
+21:00:58.258 [main] INFO  testCases.TC02_AccountLogin - Clicked on my account link
+21:00:58.721 [main] INFO  testCases.TC02_AccountLogin - Clicked on my login link
+21:00:58.721 [main] INFO  testCases.TC02_AccountLogin - Giving invalid details
+21:00:59.593 [main] INFO  testCases.TC02_AccountLogin - Validating on clicking forgot password link --> the forgot password page is displayed
+21:00:59.607 [main] INFO  testCases.TC02_AccountLogin - Finished Test 16***
+21:00:59.610 [main] INFO  testCases.TC02_AccountLogin - ***Starting Test 17***
+21:00:59.781 [main] INFO  testCases.TC02_AccountLogin - Clicked on my account link
+21:01:00.259 [main] INFO  testCases.TC02_AccountLogin - Clicked on my login link
+21:01:00.259 [main] INFO  testCases.TC02_AccountLogin - Giving email only
+21:01:01.145 [main] INFO  testCases.TC02_AccountLogin - Validating clicking on forgot password link by giving email id only
+21:01:01.147 [main] INFO  testCases.TC02_AccountLogin - Finished Test 17***
+21:01:01.147 [main] INFO  testCases.TC02_AccountLogin - ***Starting Test 18***
+21:01:01.318 [main] INFO  testCases.TC02_AccountLogin - Clicked on my account link
+21:01:01.770 [main] INFO  testCases.TC02_AccountLogin - Clicked on my login link
+21:01:01.770 [main] INFO  testCases.TC02_AccountLogin - Giving password only
+21:01:02.581 [main] INFO  testCases.TC02_AccountLogin - Validating clicking on forgot password link by giving password only
+21:01:02.581 [main] INFO  testCases.TC02_AccountLogin - Finished Test 18***
+21:01:02.581 [main] INFO  testCases.TC02_AccountLogin - ***Starting Test 19***
+21:01:02.763 [main] INFO  testCases.TC02_AccountLogin - Clicked on my account link
+21:01:03.247 [main] INFO  testCases.TC02_AccountLogin - Clicked on my login link
+21:01:03.355 [main] INFO  testCases.TC02_AccountLogin - Validating there is proper place holders in all the text fields
+21:01:03.357 [main] INFO  testCases.TC02_AccountLogin - Finished Test 19***
+21:01:03.363 [main] INFO  testCases.TC02_AccountLogin - ***Starting Test 20***
+21:01:03.541 [main] INFO  testCases.TC02_AccountLogin - Clicked on my account link
+21:01:03.936 [main] INFO  testCases.TC02_AccountLogin - Clicked on my login link
+21:01:03.936 [main] INFO  testCases.TC02_AccountLogin - Giving valid email
+21:01:04.147 [main] INFO  testCases.TC02_AccountLogin - Giving only spaces in pwd
+21:01:07.407 [main] INFO  testCases.TC02_AccountLogin - Validating logging in by giving only spaces in the text fields
+21:01:07.407 [main] INFO  testCases.TC02_AccountLogin - Finished Test 20***
+21:01:12.264 [main] INFO  testCases.TC04_ForgotPassword - ********Starting TC04_ForgotPassword********
+21:01:12.264 [main] INFO  testCases.TC04_ForgotPassword - ***Starting Test 1***
+21:01:13.274 [main] INFO  testCases.TC04_ForgotPassword - Clicked on my account link
+21:01:13.751 [main] INFO  testCases.TC04_ForgotPassword - Clicked on login link
+21:01:17.209 [main] INFO  testCases.TC04_ForgotPassword - Clicked on forgot password link
+21:01:20.271 [main] INFO  testCases.TC04_ForgotPassword - Validating that clicking on forgot password link in login page displays forgot password page
+21:01:20.271 [main] INFO  testCases.TC04_ForgotPassword - Finished Test 1***
+21:01:20.271 [main] INFO  testCases.TC04_ForgotPassword - ***Starting Test 2***
+21:01:21.026 [main] INFO  testCases.TC04_ForgotPassword - Clicked on my account link
+21:01:21.480 [main] INFO  testCases.TC04_ForgotPassword - Clicked on login link
+21:01:24.885 [main] INFO  testCases.TC04_ForgotPassword - Clicked on forgot password link in right column
+21:01:27.928 [main] INFO  testCases.TC04_ForgotPassword - Validating clicking on forgot password tab in right column
+21:01:27.928 [main] INFO  testCases.TC04_ForgotPassword - Finished Test 2***
+21:01:27.928 [main] INFO  testCases.TC04_ForgotPassword - ***Starting Test 3***
+21:01:28.607 [main] INFO  testCases.TC04_ForgotPassword - Clicked on my account link
+21:01:29.047 [main] INFO  testCases.TC04_ForgotPassword - Clicked on login link
+21:01:32.462 [main] INFO  testCases.TC04_ForgotPassword - Clicked on forgot password link in right column
+21:01:35.516 [main] INFO  testCases.TC04_ForgotPassword - Validating that the forgot password page is asking for valid e-mail
+21:01:35.516 [main] INFO  testCases.TC04_ForgotPassword - Finished Test 3***
+21:01:35.516 [main] INFO  testCases.TC04_ForgotPassword - ***Starting Test 4***
+21:01:36.206 [main] INFO  testCases.TC04_ForgotPassword - Clicked on my account link
+21:01:36.631 [main] INFO  testCases.TC04_ForgotPassword - Clicked on login link
+21:01:40.055 [main] INFO  testCases.TC04_ForgotPassword - Clicked on forgot password link in right column
+21:01:44.786 [main] INFO  testCases.TC04_ForgotPassword - Entered email and clicked on continue button
+21:01:47.847 [main] INFO  testCases.TC04_ForgotPassword - Validating that proper message is displayed after providing valid e-mail id
+21:01:47.847 [main] INFO  testCases.TC04_ForgotPassword - Finished Test 4***
+21:01:47.858 [main] INFO  testCases.TC04_ForgotPassword - ***Starting Test 5***
+21:01:48.618 [main] INFO  testCases.TC04_ForgotPassword - Clicked on my account link
+21:01:49.130 [main] INFO  testCases.TC04_ForgotPassword - Clicked on login link
+21:01:52.576 [main] INFO  testCases.TC04_ForgotPassword - Clicked on forgot password link in right column
+21:01:56.394 [main] INFO  testCases.TC04_ForgotPassword - Entered email and clicked on continue button
+21:01:59.446 [main] INFO  testCases.TC04_ForgotPassword - Validating tthat proper warning message is displayed after providing invalid e-mail id
+21:01:59.446 [main] INFO  testCases.TC04_ForgotPassword - Finished Test 5***
+21:01:59.446 [main] INFO  testCases.TC04_ForgotPassword - ***Starting Test 6***
+21:02:00.390 [main] INFO  testCases.TC04_ForgotPassword - Clicked on my account link
+21:02:00.854 [main] INFO  testCases.TC04_ForgotPassword - Clicked on login link
+21:02:04.329 [main] INFO  testCases.TC04_ForgotPassword - Clicked on forgot password link in right column
+21:02:07.597 [main] INFO  testCases.TC04_ForgotPassword - Clicked on continue button
+21:02:10.666 [main] INFO  testCases.TC04_ForgotPassword - Validating that proper warning message is displayed after leaving e-mail textfield empty
+21:02:10.666 [main] INFO  testCases.TC04_ForgotPassword - Finished Test 6***
+21:02:10.674 [main] INFO  testCases.TC04_ForgotPassword - ***Starting Test 7***
+21:02:11.484 [main] INFO  testCases.TC04_ForgotPassword - Clicked on my account link
+21:02:11.871 [main] INFO  testCases.TC04_ForgotPassword - Clicked on login link
+21:02:15.371 [main] INFO  testCases.TC04_ForgotPassword - Clicked on forgot password link in right column
+21:02:18.430 [main] INFO  testCases.TC04_ForgotPassword - Validating Placeholder text is displayed in the 'E-Mail Address' field of 'Forgotten Password' page
+21:02:18.430 [main] INFO  testCases.TC04_ForgotPassword - Finished Test 7***
+21:02:18.441 [main] INFO  testCases.TC04_ForgotPassword - ***Starting Test 8***
+21:02:19.161 [main] INFO  testCases.TC04_ForgotPassword - Clicked on my account link
+21:02:19.552 [main] INFO  testCases.TC04_ForgotPassword - Clicked on login link
+21:02:23.070 [main] INFO  testCases.TC04_ForgotPassword - Clicked on forgot password link in right column
+21:02:27.857 [main] INFO  testCases.TC04_ForgotPassword - Entered email and clicked on continue button
+21:02:31.310 [main] INFO  testCases.TC04_ForgotPassword - Clicked on login link
+21:02:35.666 [main] INFO  testCases.TC04_ForgotPassword - Entered email, password and clicked on login button
+21:02:38.864 [main] INFO  testCases.TC04_ForgotPassword - Clicked on my account link
+21:02:38.866 [main] INFO  testCases.TC04_ForgotPassword - Validating logging into the Application with the old password
+21:02:38.910 [main] INFO  testCases.TC04_ForgotPassword - Finished Test 8***
+21:02:43.036 [main] INFO  testCases.TC03_AccountLogout - ********Starting TC03_AccountLogout********
+21:02:43.036 [main] INFO  testCases.TC03_AccountLogout - ***Starting Test 1***
+21:02:46.266 [main] INFO  testCases.TC03_AccountLogout - Clicked on my account link
+21:02:46.720 [main] INFO  testCases.TC03_AccountLogout - Clicked on login link
+21:02:46.722 [main] INFO  testCases.TC03_AccountLogout - Giving valid details
+21:02:49.439 [main] INFO  testCases.TC03_AccountLogout - Clicked on my account link
+21:02:49.500 [main] INFO  testCases.TC03_AccountLogout - Validating Logging out option is displayed in MyAccount drop menu after logging in
+21:02:50.369 [main] INFO  testCases.TC03_AccountLogout - Finished Test 1***
+21:02:50.383 [main] INFO  testCases.TC03_AccountLogout - ***Starting Test 2***
+21:02:54.358 [main] INFO  testCases.TC03_AccountLogout - Clicked on my account link
+21:02:54.789 [main] INFO  testCases.TC03_AccountLogout - Clicked on login link
+21:02:54.789 [main] INFO  testCases.TC03_AccountLogout - Giving valid details
+21:02:58.214 [main] INFO  testCases.TC03_AccountLogout - Clicked on my account link
+21:02:58.920 [main] INFO  testCases.TC03_AccountLogout - Clicked on logout link
+21:03:01.641 [main] INFO  testCases.TC03_AccountLogout - Clicked on my account link
+21:03:01.691 [main] INFO  testCases.TC03_AccountLogout - Validating Logging out by selecting Logout option from 'My Account' drop menu
+21:03:01.691 [main] INFO  testCases.TC03_AccountLogout - Finished Test 2***
+21:03:01.695 [main] INFO  testCases.TC03_AccountLogout - ***Starting Test 3***
+21:03:05.284 [main] INFO  testCases.TC03_AccountLogout - Clicked on my account link
+21:03:05.766 [main] INFO  testCases.TC03_AccountLogout - Clicked on login link
+21:03:05.766 [main] INFO  testCases.TC03_AccountLogout - Giving valid details
+21:03:07.691 [main] INFO  testCases.TC03_AccountLogout - Clicked on logout option in right column
+21:03:07.901 [main] INFO  testCases.TC03_AccountLogout - Clicked on my account link
+21:03:07.949 [main] INFO  testCases.TC03_AccountLogout - Validating Logging out by selecting Logout option from 'My Account' drop menu
+21:03:07.949 [main] INFO  testCases.TC03_AccountLogout - Finished Test 3***
+21:03:07.949 [main] INFO  testCases.TC03_AccountLogout - ***Starting Test 4***
+21:03:11.121 [main] INFO  testCases.TC03_AccountLogout - Clicked on my account link
+21:03:11.788 [main] INFO  testCases.TC03_AccountLogout - Clicked on login link
+21:03:11.788 [main] INFO  testCases.TC03_AccountLogout - Giving valid details
+21:03:14.551 [main] INFO  testCases.TC03_AccountLogout - Clicked on my account link
+21:03:15.202 [main] INFO  testCases.TC03_AccountLogout - Clicked on logout link
+21:03:17.286 [main] INFO  testCases.TC03_AccountLogout - navigated back...
+21:03:19.467 [main] INFO  testCases.TC03_AccountLogout - Clicked on my account link
+21:03:21.512 [main] INFO  testCases.TC03_AccountLogout - Validating logging out and browsing back
+21:03:21.827 [main] INFO  testCases.TC03_AccountLogout - ***Starting Test 5***
+21:03:25.012 [main] INFO  testCases.TC03_AccountLogout - Clicked on my account link
+21:03:25.086 [main] INFO  testCases.TC03_AccountLogout - Validating Logout option is not displayed under 'My Account' menu before logging in
+21:03:25.086 [main] INFO  testCases.TC03_AccountLogout - Finished Test 5***
+21:03:25.086 [main] INFO  testCases.TC03_AccountLogout - ***Starting Test 6***
+21:03:25.963 [main] INFO  testCases.TC03_AccountLogout - Clicked on my account link
+21:03:26.414 [main] INFO  testCases.TC03_AccountLogout - Clicked on login link
+21:03:26.414 [main] INFO  testCases.TC03_AccountLogout - Giving valid details
+21:03:29.149 [main] INFO  testCases.TC03_AccountLogout - Clicked on my account link
+21:03:29.816 [main] INFO  testCases.TC03_AccountLogout - Clicked on logout link
+21:03:34.865 [main] INFO  testCases.TC03_AccountLogout - Validating that proper message is displayed after logging out
+21:03:34.865 [main] INFO  testCases.TC03_AccountLogout - Finished Test 6***
+21:03:39.410 [main] INFO  testCases.TC06_ProductDetails - ********Starting TC06_ProductDetails********
+21:03:39.410 [main] INFO  testCases.TC06_ProductDetails - ***Starting Test 1***
+21:03:41.632 [main] INFO  testCases.TC06_ProductDetails - Clicked on Desktops link
+21:03:46.344 [main] INFO  testCases.TC06_ProductDetails - Selected Mac
+21:03:46.384 [main] INFO  testCases.TC06_ProductDetails - Validating getting product display from dropdown in top menu
+21:03:46.384 [main] INFO  testCases.TC06_ProductDetails - Finished Test 1***
+21:03:51.591 [main] INFO  testCases.TC06_ProductDetails - Clicked on my account link
+21:03:52.008 [main] INFO  testCases.TC06_ProductDetails - Clicked on login link
+21:03:58.753 [main] INFO  testCases.TC06_ProductDetails - Clicked on Laptops and Notebooks link
+21:04:01.376 [main] INFO  testCases.TC06_ProductDetails - Selected Show AllLaptops & Notebooks link
+21:04:06.535 [main] INFO  testCases.TC06_ProductDetails - Clicked on HPLP3065
+21:04:08.682 [main] INFO  testCases.TC06_ProductDetails - Clicked on add to wish list
+21:04:11.120 [main] INFO  testCases.TC06_ProductDetails - Clicked on wish list
+21:04:13.973 [main] INFO  testCases.TC06_ProductDetails - Clicked on name in wish list
+21:04:17.033 [main] INFO  testCases.TC06_ProductDetails -  Validating navigating to the Product Display page by using the Product name in the 'Wish List' page
+21:04:17.033 [main] INFO  testCases.TC06_ProductDetails - Finished Test 2***
+21:04:20.929 [main] INFO  testCases.TC06_ProductDetails - ***Starting Test 3***
+21:04:23.117 [main] INFO  testCases.TC06_ProductDetails - Clicked on my account link
+21:04:23.728 [main] INFO  testCases.TC06_ProductDetails - Clicked on login link
+21:04:31.244 [main] INFO  testCases.TC06_ProductDetails - Clicked on Laptops and Notebooks link
+21:04:33.986 [main] INFO  testCases.TC06_ProductDetails - Selected Show AllLaptops & Notebooks link
+21:04:39.060 [main] INFO  testCases.TC06_ProductDetails - Clicked on HPLP3065
+21:04:41.202 [main] INFO  testCases.TC06_ProductDetails - Clicked on add to wish list
+21:04:43.745 [main] INFO  testCases.TC06_ProductDetails - Clicked on wish list
+21:04:48.321 [main] INFO  testCases.TC06_ProductDetails - Clicked on image in wish list
+21:04:51.363 [main] INFO  testCases.TC06_ProductDetails -  Validating navigating to the Product Display page by using the Product Name link in the 'Wish List' page
+21:04:51.363 [main] INFO  testCases.TC06_ProductDetails - Finished Test 3***
+21:04:55.112 [main] INFO  testCases.TC06_ProductDetails - ***Starting Test 4***
+21:04:55.356 [main] INFO  testCases.TC06_ProductDetails - Clicked on my account link
+21:04:57.819 [main] INFO  testCases.TC06_ProductDetails - Clicked on login link
+21:05:04.317 [main] INFO  testCases.TC06_ProductDetails - Clicked on Laptops and Notebooks link
+21:05:05.019 [main] INFO  testCases.TC06_ProductDetails - Selected Show AllLaptops & Notebooks link
+21:05:07.998 [main] INFO  testCases.TC06_ProductDetails - Clicked on HPLP3065
+21:05:12.419 [main] INFO  testCases.TC06_ProductDetails - Clicked on add to cart button
+21:05:14.932 [main] INFO  testCases.TC06_ProductDetails - Clicked on shopping cart link
+21:05:18.573 [main] INFO  testCases.TC06_ProductDetails - Clicked on image
+21:05:24.638 [main] INFO  testCases.TC06_ProductDetails - Validating navigating to the Product Display page by using the Product Image in the 'Shopping Cart' page
+21:05:24.638 [main] INFO  testCases.TC06_ProductDetails - Finished Test 4***
+21:05:28.547 [main] INFO  testCases.TC06_ProductDetails - ***Starting Test 6***
+21:05:28.755 [main] INFO  testCases.TC06_ProductDetails - Clicked on my account link
+21:05:29.190 [main] INFO  testCases.TC06_ProductDetails - Clicked on login link
+21:05:31.860 [main] INFO  testCases.TC06_ProductDetails - Clicked on Laptops and Notebooks link
+21:05:32.482 [main] INFO  testCases.TC06_ProductDetails - Selected Show AllLaptops & Notebooks link
+21:05:35.326 [main] INFO  testCases.TC06_ProductDetails - Clicked on HPLP3065
+21:05:37.476 [main] INFO  testCases.TC06_ProductDetails - Clicked on add to cart button
+21:05:41.114 [main] INFO  testCases.TC06_ProductDetails - Clicked on Checkout link
+21:05:44.307 [main] INFO  testCases.TC06_ProductDetails - Clicked on use new address radio button
+21:05:47.314 [main] INFO  testCases.TC06_ProductDetails - Entering details...
+21:06:02.967 [main] INFO  testCases.TC06_ProductDetails - Clicked on continue payment method button
+21:06:06.617 [main] INFO  testCases.TC06_ProductDetails - Clicked on product name link
+21:06:09.655 [main] INFO  testCases.TC06_ProductDetails - Validating navigating to the Product Display page by using the Product Name link in the 'Confirm Order' section of the 'Checkout' page
+21:06:10.592 [main] INFO  testCases.TC06_ProductDetails - Finished Test 6***
+21:06:10.598 [main] INFO  testCases.TC06_ProductDetails - ***Starting Test 8***
+21:06:10.792 [main] INFO  testCases.TC06_ProductDetails - Clicked on my account link
+21:06:11.250 [main] INFO  testCases.TC06_ProductDetails - Clicked on login link
+21:06:15.706 [main] INFO  testCases.TC06_ProductDetails - Clicked on Laptops and Notebooks link
+21:06:16.310 [main] INFO  testCases.TC06_ProductDetails - Selected Show AllLaptops & Notebooks link
+21:06:19.305 [main] INFO  testCases.TC06_ProductDetails - Clicked on HPLP3065
+21:06:23.743 [main] INFO  testCases.TC06_ProductDetails - Clicked on add to cart button
+21:06:26.800 [main] INFO  testCases.TC06_ProductDetails - Validating navigating to the Product Display page and adding the product to cart  
+21:06:26.800 [main] INFO  testCases.TC06_ProductDetails - Finished Test 8***
+21:06:32.496 [main] INFO  testCases.TC05_Search - ********Starting TC05_Search********
+21:06:32.496 [main] INFO  testCases.TC05_Search - ***Starting Test 1***
+21:06:33.412 [main] INFO  testCases.TC05_Search - Clicked on my site map link
+21:06:33.884 [main] INFO  testCases.TC05_Search - Clicked on search link
+21:06:33.962 [main] INFO  testCases.TC05_Search - Validating navigating to Search page from the Site Map page
+21:06:33.962 [main] INFO  testCases.TC05_Search - Finished Test 1***
+21:06:33.967 [main] INFO  testCases.TC05_Search - ***Starting Test 2***
+21:06:34.894 [main] INFO  testCases.TC05_Search - Clicked on search button
+21:06:37.906 [main] INFO  testCases.TC05_Search - Entering details...
+21:06:39.318 [main] INFO  testCases.TC05_Search - Clicked on search tab
+21:06:43.343 [main] INFO  testCases.TC05_Search - Validating searching by giving an existing product name
+21:06:43.343 [main] INFO  testCases.TC05_Search - Finished Test 2***
+21:06:43.360 [main] INFO  testCases.TC05_Search - ***Starting Test 3***
+21:06:44.578 [main] INFO  testCases.TC05_Search - Clicked on search button
+21:06:44.579 [main] INFO  testCases.TC05_Search - Entering details...
+21:06:46.227 [main] INFO  testCases.TC05_Search - Clicked on search tab
+21:06:50.286 [main] INFO  testCases.TC05_Search - Validating searching by giving a non-existing product name
+21:06:50.286 [main] INFO  testCases.TC05_Search - Finished Test 3***
+21:06:50.286 [main] INFO  testCases.TC05_Search - ***Starting Test 4***
+21:06:51.242 [main] INFO  testCases.TC05_Search - Clicked on search button
+21:06:51.382 [main] INFO  testCases.TC05_Search - Left keyword textfield empty
+21:06:52.517 [main] INFO  testCases.TC05_Search - Clicked on search tab
+21:06:56.567 [main] INFO  testCases.TC05_Search - Validating searching by leaving search textfield empty
+21:06:56.567 [main] INFO  testCases.TC05_Search - Finished Test 4***
+21:06:56.578 [main] INFO  testCases.TC05_Search - ***Starting Test 5***
+21:06:57.598 [main] INFO  testCases.TC05_Search - Clicked on search button
+21:06:58.900 [main] INFO  testCases.TC05_Search - Clicked on search tab
+21:07:02.933 [main] INFO  testCases.TC05_Search - Validating searching by leaving search textfield empty	and no option selected	in category
+21:07:02.949 [main] INFO  testCases.TC05_Search - Finished Test 5***
+21:07:02.949 [main] INFO  testCases.TC05_Search - ***Starting Test 6***
+21:07:03.785 [main] INFO  testCases.TC05_Search - Clicked on my account link
+21:07:04.218 [main] INFO  testCases.TC05_Search - Clicked on login link
+21:07:08.804 [main] INFO  testCases.TC05_Search - Entered login details and clicked on login link
+21:07:09.625 [main] INFO  testCases.TC05_Search - Entered text in search textfield and selected on login button
+21:07:13.672 [main] INFO  testCases.TC05_Search - Validating searching for a product after login
+21:07:13.672 [main] INFO  testCases.TC05_Search - Finished Test 6***
+21:07:13.672 [main] INFO  testCases.TC05_Search - ***Starting Test 7***
+21:07:14.998 [main] INFO  testCases.TC05_Search - Clicked on search button
+21:07:14.998 [main] INFO  testCases.TC05_Search - Entering details..
+21:07:16.140 [main] INFO  testCases.TC05_Search - Clicked on search tab
+21:07:20.180 [main] INFO  testCases.TC05_Search - Validating searching for a product after login
+21:07:20.180 [main] INFO  testCases.TC05_Search - Finished Test 7***
+21:07:20.180 [main] INFO  testCases.TC05_Search - ***Starting Test 8***
+21:07:21.345 [main] INFO  testCases.TC05_Search - Clicked on search button
+21:07:21.345 [main] INFO  testCases.TC05_Search - Entering details..
+21:07:22.695 [main] INFO  testCases.TC05_Search - Clicked on search tab
+21:07:26.742 [main] INFO  testCases.TC05_Search - Validating searching without checking search in sub-categories
+21:07:26.742 [main] INFO  testCases.TC05_Search - Finished Test 8***
+21:07:26.742 [main] INFO  testCases.TC05_Search - ***Starting Test 9***
+21:07:27.707 [main] INFO  testCases.TC05_Search - Clicked on search button
+21:07:27.804 [main] INFO  testCases.TC05_Search - Validating all the fields in the Search functionality and Search page have placeholders
+21:07:27.804 [main] INFO  testCases.TC05_Search - Finished Test 9***
+21:07:27.809 [main] INFO  testCases.TC05_Search - ***Starting Test 11***
+21:07:28.921 [main] INFO  testCases.TC05_Search - Clicked on search button
+21:07:28.921 [main] INFO  testCases.TC05_Search - Entering details..
+21:07:30.123 [main] INFO  testCases.TC05_Search - Clicked on search tab
+21:07:34.283 [main] INFO  testCases.TC05_Search - Clicked on list tab
+21:07:38.325 [main] INFO  testCases.TC05_Search - Validating List view when multiple products are displayed in the search results
+21:07:38.325 [main] INFO  testCases.TC05_Search - Finished Test 11***
+21:07:38.334 [main] INFO  testCases.TC05_Search - ***Starting Test 12***
+21:07:39.396 [main] INFO  testCases.TC05_Search - Clicked on search button
+21:07:39.396 [main] INFO  testCases.TC05_Search - Entering details..
+21:07:40.649 [main] INFO  testCases.TC05_Search - Clicked on search tab
+21:07:44.771 [main] INFO  testCases.TC05_Search - Clicked on Grid tab
+21:07:44.833 [main] INFO  testCases.TC05_Search - Validating Grid view when multiple products are displayed in the search results
+21:07:44.833 [main] INFO  testCases.TC05_Search - ***Starting Test 13***
+21:07:45.862 [main] INFO  testCases.TC05_Search - Clicked on search button
+21:07:45.869 [main] INFO  testCases.TC05_Search - Entering details..
+21:07:47.250 [main] INFO  testCases.TC05_Search - Clicked on search tab
+21:07:51.680 [main] INFO  testCases.TC05_Search - Added macbook to compare
+21:07:54.113 [main] INFO  testCases.TC05_Search - Added macbookAir to compare
+21:07:56.560 [main] INFO  testCases.TC05_Search - Added macbookPro to compare
+21:07:59.036 [main] INFO  testCases.TC05_Search - Clicked on compare all button
+21:08:03.089 [main] INFO  testCases.TC05_Search - Validating navigating to Product Compare Page from Search Results page
+21:08:03.089 [main] INFO  testCases.TC05_Search - Finished Test 13***
+21:08:07.060 [main] INFO  testCases.TC01_AccountRegistration - ********Starting TC01_AccountRegistration********
+21:08:07.060 [main] INFO  testCases.TC01_AccountRegistration - ***Starting Test 1***
+21:08:10.281 [main] INFO  testCases.TC01_AccountRegistration - Clicked on my account link
+21:08:11.266 [main] INFO  testCases.TC01_AccountRegistration - Clicked onn register link
+21:08:11.268 [main] INFO  testCases.TC01_AccountRegistration - Validating navigating to register link through My account ---> Register
+21:08:11.360 [main] INFO  testCases.TC01_AccountRegistration - Finished Test 1***
+21:08:11.363 [main] INFO  testCases.TC01_AccountRegistration - ***Starting Test 3***
+21:08:14.547 [main] INFO  testCases.TC01_AccountRegistration - Clicked on my account link
+21:08:15.012 [main] INFO  testCases.TC01_AccountRegistration - Clicked onn register link
+21:08:18.024 [main] INFO  testCases.TC01_AccountRegistration - Providing Customer Details
+21:08:23.291 [main] INFO  testCases.TC01_AccountRegistration - Validating registering an account by giving valid details
+21:08:24.148 [main] INFO  testCases.TC01_AccountRegistration - Finished Test3***
+21:08:26.315 [main] INFO  testCases.TC01_AccountRegistration - ***Starting Test 4***
+21:08:29.481 [main] INFO  testCases.TC01_AccountRegistration - Clicked on my account link
+21:08:29.947 [main] INFO  testCases.TC01_AccountRegistration - Clicked onn register link
+21:08:32.951 [main] INFO  testCases.TC01_AccountRegistration - Providing Customer Details
+21:08:37.837 [main] INFO  testCases.TC01_AccountRegistration - Validating registering an account by giving invalid email
+21:08:57.920 [main] INFO  testCases.TC01_AccountRegistration - Finished Test4***
+21:08:58.544 [main] INFO  testCases.TC01_AccountRegistration - ***Starting Test 5***
+21:09:01.719 [main] INFO  testCases.TC01_AccountRegistration - Clicked on my account link
+21:09:02.288 [main] INFO  testCases.TC01_AccountRegistration - Clicked onn register link
+21:09:05.298 [main] INFO  testCases.TC01_AccountRegistration - Providing Customer Details
+21:09:10.116 [main] INFO  testCases.TC01_AccountRegistration - Validating registering an account by giving invalid fname
+21:09:30.164 [main] INFO  testCases.TC01_AccountRegistration - Finished Test5***
+21:09:30.714 [main] INFO  testCases.TC01_AccountRegistration - ***Starting Test 6***
+21:09:33.889 [main] INFO  testCases.TC01_AccountRegistration - Clicked on my account link
+21:09:34.329 [main] INFO  testCases.TC01_AccountRegistration - Clicked onn register link
+21:09:37.331 [main] INFO  testCases.TC01_AccountRegistration - Providing Customer Details
+21:09:42.008 [main] INFO  testCases.TC01_AccountRegistration - Validating registering an account by giving invalid lname
+21:10:02.022 [main] INFO  testCases.TC01_AccountRegistration - Finished Test6***
+21:10:02.494 [main] INFO  testCases.TC01_AccountRegistration - ***Starting Test 7***
+21:10:05.664 [main] INFO  testCases.TC01_AccountRegistration - Clicked on my account link
+21:10:06.035 [main] INFO  testCases.TC01_AccountRegistration - Clicked onn register link
+21:10:09.049 [main] INFO  testCases.TC01_AccountRegistration - Providing Customer Details
+21:10:13.640 [main] INFO  testCases.TC01_AccountRegistration - Validating registering an account by giving invalid phone number
+21:10:33.669 [main] INFO  testCases.TC01_AccountRegistration - Finished Test7***
+21:10:34.127 [main] INFO  testCases.TC01_AccountRegistration - ***Starting Test 8***
+21:10:37.314 [main] INFO  testCases.TC01_AccountRegistration - Clicked on my account link
+21:10:37.810 [main] INFO  testCases.TC01_AccountRegistration - Clicked onn register link
+21:10:40.815 [main] INFO  testCases.TC01_AccountRegistration - Providing Customer Details
+21:10:45.279 [main] INFO  testCases.TC01_AccountRegistration - Validating registering an account by using already registered e-mail id
+21:11:05.295 [main] INFO  testCases.TC01_AccountRegistration - Finished Test8***
+21:11:05.771 [main] INFO  testCases.TC01_AccountRegistration - ***Starting Test 9***
+21:11:08.951 [main] INFO  testCases.TC01_AccountRegistration - Clicked on my account link
+21:11:09.359 [main] INFO  testCases.TC01_AccountRegistration - Clicked onn register link
+21:11:12.367 [main] INFO  testCases.TC01_AccountRegistration - Providing Customer Details
+21:11:16.523 [main] INFO  testCases.TC01_AccountRegistration - Validating registering an account by using invalid password 
+21:11:36.534 [main] INFO  testCases.TC01_AccountRegistration - Finished Test9***
+21:11:36.550 [main] INFO  testCases.TC01_AccountRegistration - ***Starting Test 10***
+21:11:39.739 [main] INFO  testCases.TC01_AccountRegistration - Clicked on my account link
+21:11:40.089 [main] INFO  testCases.TC01_AccountRegistration - Clicked onn register link
+21:11:43.103 [main] INFO  testCases.TC01_AccountRegistration - Providing password
+21:11:43.403 [main] INFO  testCases.TC01_AccountRegistration - Validating whether password is hidden when we are entering the password
+21:11:43.403 [main] INFO  testCases.TC01_AccountRegistration - Finished Test10***
+21:11:43.989 [main] INFO  testCases.TC01_AccountRegistration - ***Starting Test 11***
+21:11:47.162 [main] INFO  testCases.TC01_AccountRegistration - Clicked on my account link
+21:11:47.664 [main] INFO  testCases.TC01_AccountRegistration - Clicked on register link
+21:11:50.680 [main] INFO  testCases.TC01_AccountRegistration - Providing Customer Details
+21:11:55.459 [main] INFO  testCases.TC01_AccountRegistration - Validating registering an account by giving password textfield and confirm password textfield as different
+21:12:15.512 [main] INFO  testCases.TC01_AccountRegistration - Finished Test11***
+21:12:15.528 [main] INFO  testCases.TC01_AccountRegistration - ***Starting Test 11***
+21:12:18.750 [main] INFO  testCases.TC01_AccountRegistration - Clicked on my account link
+21:12:19.155 [main] INFO  testCases.TC01_AccountRegistration - Clicked on register link
+21:12:22.160 [main] INFO  testCases.TC01_AccountRegistration - Providing Customer Details
+21:12:26.718 [main] INFO  testCases.TC01_AccountRegistration - Validating registering an account by giving password textfield and confirm password textfield as different
+21:12:46.749 [main] INFO  testCases.TC01_AccountRegistration - Finished Test11***
+21:12:47.296 [main] INFO  testCases.TC01_AccountRegistration - ***Starting Test 12***
+21:12:50.502 [main] INFO  testCases.TC01_AccountRegistration - Clicked on my account link
+21:12:50.899 [main] INFO  testCases.TC01_AccountRegistration - Clicked onn register link
+21:12:53.907 [main] INFO  testCases.TC01_AccountRegistration - Providing Customer Details
+21:12:58.635 [main] INFO  testCases.TC01_AccountRegistration - Validating registering an account by not agreeing to privacy policy
+21:13:18.702 [main] INFO  testCases.TC01_AccountRegistration - Finished Test12***
+21:13:18.711 [main] INFO  testCases.TC01_AccountRegistration - ***Starting Test 12***
+21:13:21.904 [main] INFO  testCases.TC01_AccountRegistration - Clicked on my account link
+21:13:22.379 [main] INFO  testCases.TC01_AccountRegistration - Clicked onn register link
+21:13:25.380 [main] INFO  testCases.TC01_AccountRegistration - Providing Customer Details
+21:13:29.867 [main] INFO  testCases.TC01_AccountRegistration - Validating registering an account by not agreeing to privacy policy
+21:13:49.891 [main] INFO  testCases.TC01_AccountRegistration - Finished Test12***
+21:13:49.907 [main] INFO  testCases.TC01_AccountRegistration - ***Starting Test 13***
+21:13:53.106 [main] INFO  testCases.TC01_AccountRegistration - Clicked on my account link
+21:13:53.515 [main] INFO  testCases.TC01_AccountRegistration - Clicked onn register link
+21:13:56.526 [main] INFO  testCases.TC01_AccountRegistration - Providing Customer Details
+21:14:03.042 [main] INFO  testCases.TC01_AccountRegistration - Validating registering an account by not filling all the essential fields
+21:14:23.732 [main] INFO  testCases.TC01_AccountRegistration - Finished Test13***
+21:14:23.732 [main] INFO  testCases.TC01_AccountRegistration - ***Starting Test 14***
+21:14:26.915 [main] INFO  testCases.TC01_AccountRegistration - Clicked on my account link
+21:14:27.335 [main] INFO  testCases.TC01_AccountRegistration - Clicked onn register link
+21:14:30.347 [main] INFO  testCases.TC01_AccountRegistration - Providing Customer Details
+21:14:37.568 [main] INFO  testCases.TC01_AccountRegistration - Validating registering an account by not filling all the essential fields
+21:14:57.581 [main] INFO  testCases.TC01_AccountRegistration - Finished Test14***
+21:14:57.597 [main] INFO  testCases.TC01_AccountRegistration - ***Starting Test 15***
+21:15:00.777 [main] INFO  testCases.TC01_AccountRegistration - Clicked on my account link
+21:15:02.212 [main] INFO  testCases.TC01_AccountRegistration - Clicked onn register link
+21:15:05.215 [main] INFO  testCases.TC01_AccountRegistration - Providing Customer Details
+21:15:13.403 [main] INFO  testCases.TC01_AccountRegistration - Validating registering an account by subscribing to newsletter option 
+21:15:14.243 [main] INFO  testCases.TC01_AccountRegistration - Finished Test15***
+21:15:14.248 [main] INFO  testCases.TC01_AccountRegistration - ***Starting Test 16***
+21:15:17.438 [main] INFO  testCases.TC01_AccountRegistration - Clicked on my account link
+21:15:17.915 [main] INFO  testCases.TC01_AccountRegistration - Clicked onn register link
+21:15:20.922 [main] INFO  testCases.TC01_AccountRegistration - Providing Customer Details
+21:15:28.205 [main] INFO  testCases.TC01_AccountRegistration - Validating registering an account by not subscribing to newsletter option
+21:15:29.064 [main] INFO  testCases.TC01_AccountRegistration - Finished Test16***
+21:15:29.064 [main] INFO  testCases.TC01_AccountRegistration - ***Starting Test 17***
+21:15:32.254 [main] INFO  testCases.TC01_AccountRegistration - Clicked on my account link
+21:15:33.087 [main] INFO  testCases.TC01_AccountRegistration - Clicked on my login link
+21:15:33.661 [main] INFO  testCases.TC01_AccountRegistration - Clicked on my Continue button under New Customer Link
+21:15:33.663 [main] INFO  testCases.TC01_AccountRegistration - Validating navigating to register link through my Account --> login --->Register
+21:15:33.727 [main] INFO  testCases.TC01_AccountRegistration - Finished Test17***
+21:15:33.735 [main] INFO  testCases.TC01_AccountRegistration - ***Starting Test 18***
+21:15:33.911 [main] INFO  testCases.TC01_AccountRegistration - Clicked on my account link
+21:15:34.349 [main] INFO  testCases.TC01_AccountRegistration - Clicked onn register link from right column
+21:15:34.349 [main] INFO  testCases.TC01_AccountRegistration - Validating navigating to Register from Right column option
+21:15:34.398 [main] INFO  testCases.TC01_AccountRegistration - Finished Test18***
+21:15:34.410 [main] INFO  testCases.TC01_AccountRegistration - ***Starting Test 19***
+21:15:38.079 [main] INFO  testCases.TC01_AccountRegistration - Clicked on my account link
+21:15:38.453 [main] INFO  testCases.TC01_AccountRegistration - Clicked onn register link
+21:15:41.462 [main] INFO  testCases.TC01_AccountRegistration - Providing Customer Details
+21:15:52.342 [main] INFO  testCases.TC01_AccountRegistration - Validating registering an account by using keyboard only.
+21:15:53.144 [main] INFO  testCases.TC01_AccountRegistration - Finished Test19***
+21:15:53.149 [main] INFO  testCases.TC01_AccountRegistration - ***Starting Test 20***
+21:15:56.338 [main] INFO  testCases.TC01_AccountRegistration - Clicked on my account link
+21:15:56.850 [main] INFO  testCases.TC01_AccountRegistration - Clicked onn register link
+21:15:59.853 [main] INFO  testCases.TC01_AccountRegistration - Providing only spaces for firstName and lastName textfields
+21:16:00.147 [main] INFO  testCases.TC01_AccountRegistration - Providing valid email, password
+21:16:07.361 [main] INFO  testCases.TC01_AccountRegistration - Validating registering by giving only spaces in the text fields.
+21:16:27.375 [main] INFO  testCases.TC01_AccountRegistration - Finished Test20***
+21:16:27.391 [main] INFO  testCases.TC01_AccountRegistration - ***Starting Test 21***
+21:16:30.562 [main] INFO  testCases.TC01_AccountRegistration - Clicked on my account link
+21:16:31.001 [main] INFO  testCases.TC01_AccountRegistration - Clicked onn register link
+21:16:34.005 [main] INFO  testCases.TC01_AccountRegistration - Providing Customer Details
+21:16:34.258 [main] INFO  testCases.TC01_AccountRegistration - Providing only spaces in email textfield
+21:16:41.146 [main] INFO  testCases.TC01_AccountRegistration - Validating registering by giving only spaces in the text fields--->email
+21:17:01.174 [main] INFO  testCases.TC01_AccountRegistration - Finished Test21***
+21:17:01.178 [main] INFO  testCases.TC01_AccountRegistration - ***Starting Test 22***
+21:17:04.930 [main] INFO  testCases.TC01_AccountRegistration - Clicked on my account link
+21:17:05.385 [main] INFO  testCases.TC01_AccountRegistration - Clicked onn register link

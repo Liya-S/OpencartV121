@@ -1,0 +1,991 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="74" passed="71" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-11T01:03:12 IST" name="Suite" finished-at="2025-09-11T01:19:45 IST" duration-ms="992487">
+    <groups>
+      <group name="Functional">
+        <method signature="TC03_AccountLogout.verifyLogout_AfterLogin()[pri:1, instance:testCases.TC03_AccountLogout@4218d6a3]" name="verifyLogout_AfterLogin" class="testCases.TC03_AccountLogout"/>
+        <method signature="TC05_Search.verify_search_validProduct()[pri:2, instance:testCases.TC05_Search@14cd1699]" name="verify_search_validProduct" class="testCases.TC05_Search"/>
+        <method signature="TC06_ProductDetails.verify_productDisplayFromWishListImg()[pri:2, instance:testCases.TC06_ProductDetails@76505305]" name="verify_productDisplayFromWishListImg" class="testCases.TC06_ProductDetails"/>
+        <method signature="TC01_AccountRegistration.verify_account_registration()[pri:3, instance:testCases.TC01_AccountRegistration@77888435]" name="verify_account_registration" class="testCases.TC01_AccountRegistration"/>
+        <method signature="TC03_AccountLogout.verifyLogout_fromRightColumn()[pri:3, instance:testCases.TC03_AccountLogout@4218d6a3]" name="verifyLogout_fromRightColumn" class="testCases.TC03_AccountLogout"/>
+        <method signature="TC06_ProductDetails.verify_productDisplayFromWishListName()[pri:3, instance:testCases.TC06_ProductDetails@76505305]" name="verify_productDisplayFromWishListName" class="testCases.TC06_ProductDetails"/>
+        <method signature="TC06_ProductDetails.verify_productDisplayFromAddToCartImg()[pri:4, instance:testCases.TC06_ProductDetails@76505305]" name="verify_productDisplayFromAddToCartImg" class="testCases.TC06_ProductDetails"/>
+        <method signature="TC03_AccountLogout.verifyLogoutNotDisplayedBeforeLoggingIn()[pri:5, instance:testCases.TC03_AccountLogout@4218d6a3]" name="verifyLogoutNotDisplayedBeforeLoggingIn" class="testCases.TC03_AccountLogout"/>
+        <method signature="TC05_Search.verify_search_AfterLogin()[pri:6, instance:testCases.TC05_Search@14cd1699]" name="verify_search_AfterLogin" class="testCases.TC05_Search"/>
+        <method signature="TC05_Search.verifyWithoutCheckingSearchInProductDescription()[pri:7, instance:testCases.TC05_Search@14cd1699]" name="verifyWithoutCheckingSearchInProductDescription" class="testCases.TC05_Search"/>
+        <method signature="TC05_Search.verifyWithoutCheckingSearchInSubCategories()[pri:8, instance:testCases.TC05_Search@14cd1699]" name="verifyWithoutCheckingSearchInSubCategories" class="testCases.TC05_Search"/>
+        <method signature="TC05_Search.verifyListView_MultipleProducts()[pri:11, instance:testCases.TC05_Search@14cd1699]" name="verifyListView_MultipleProducts" class="testCases.TC05_Search"/>
+        <method signature="TC01_AccountRegistration.verifyAccountReg_NotAgree(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:12, instance:testCases.TC01_AccountRegistration@77888435]" name="verifyAccountReg_NotAgree" class="testCases.TC01_AccountRegistration"/>
+        <method signature="TC05_Search.verifyListAndGridViews_MultipleProducts()[pri:12, instance:testCases.TC05_Search@14cd1699]" name="verifyListAndGridViews_MultipleProducts" class="testCases.TC05_Search"/>
+        <method signature="TC05_Search.verifyNavigation_ProductComparePage()[pri:13, instance:testCases.TC05_Search@14cd1699]" name="verifyNavigation_ProductComparePage" class="testCases.TC05_Search"/>
+        <method signature="TC01_AccountRegistration.verifyAccReg_newsletterYes()[pri:15, instance:testCases.TC01_AccountRegistration@77888435]" name="verifyAccReg_newsletterYes" class="testCases.TC01_AccountRegistration"/>
+        <method signature="TC01_AccountRegistration.verifyAccReg_newsletterNo()[pri:16, instance:testCases.TC01_AccountRegistration@77888435]" name="verifyAccReg_newsletterNo" class="testCases.TC01_AccountRegistration"/>
+        <method signature="TC01_AccountRegistration.verify_navigation2_reg()[pri:17, instance:testCases.TC01_AccountRegistration@77888435]" name="verify_navigation2_reg" class="testCases.TC01_AccountRegistration"/>
+        <method signature="TC01_AccountRegistration.verify_navigation3_reg()[pri:18, instance:testCases.TC01_AccountRegistration@77888435]" name="verify_navigation3_reg" class="testCases.TC01_AccountRegistration"/>
+        <method signature="TC01_AccountRegistration.verifyAccReg_Keyboard()[pri:19, instance:testCases.TC01_AccountRegistration@77888435]" name="verifyAccReg_Keyboard" class="testCases.TC01_AccountRegistration"/>
+        <method signature="TC02_AccountLogin.verify_login_navigation_link()[pri:1, instance:testCases.TC02_AccountLogin@48f2bd5b]" name="verify_login_navigation_link" class="testCases.TC02_AccountLogin"/>
+        <method signature="TC04_ForgotPassword.verifyForgotPwd_fromLoginPage()[pri:1, instance:testCases.TC04_ForgotPassword@55182842]" name="verifyForgotPwd_fromLoginPage" class="testCases.TC04_ForgotPassword"/>
+        <method signature="TC02_AccountLogin.verify_login_navigation_RightColumn()[pri:2, instance:testCases.TC02_AccountLogin@48f2bd5b]" name="verify_login_navigation_RightColumn" class="testCases.TC02_AccountLogin"/>
+        <method signature="TC02_AccountLogin.verify_login_navigation_MyAccount()[pri:3, instance:testCases.TC02_AccountLogin@48f2bd5b]" name="verify_login_navigation_MyAccount" class="testCases.TC02_AccountLogin"/>
+        <method signature="TC03_AccountLogout.verifyLogout_Browseback()[pri:4, instance:testCases.TC03_AccountLogout@4218d6a3]" name="verifyLogout_Browseback" class="testCases.TC03_AccountLogout"/>
+        <method signature="TC02_AccountLogin.verifyLogin_PwdToggled()[pri:11, instance:testCases.TC02_AccountLogin@48f2bd5b]" name="verifyLogin_PwdToggled" class="testCases.TC02_AccountLogin"/>
+        <method signature="TC02_AccountLogin.verifyLogin_PwdInPageSource()[pri:12, instance:testCases.TC02_AccountLogin@48f2bd5b]" name="verifyLogin_PwdInPageSource" class="testCases.TC02_AccountLogin"/>
+        <method signature="TC02_AccountLogin.verify_ForgotPwdLink()[pri:15, instance:testCases.TC02_AccountLogin@48f2bd5b]" name="verify_ForgotPwdLink" class="testCases.TC02_AccountLogin"/>
+        <method signature="TC02_AccountLogin.verify_ForgotPwdPage()[pri:16, instance:testCases.TC02_AccountLogin@48f2bd5b]" name="verify_ForgotPwdPage" class="testCases.TC02_AccountLogin"/>
+      </group> <!-- Functional -->
+      <group name="Sanity">
+        <method signature="TC01_AccountRegistration.verify_navigation_registration()[pri:1, instance:testCases.TC01_AccountRegistration@77888435]" name="verify_navigation_registration" class="testCases.TC01_AccountRegistration"/>
+        <method signature="TC03_AccountLogout.verifyLogout_AfterLogin()[pri:1, instance:testCases.TC03_AccountLogout@4218d6a3]" name="verifyLogout_AfterLogin" class="testCases.TC03_AccountLogout"/>
+        <method signature="TC05_Search.verify_navigation_fromSiteMap()[pri:1, instance:testCases.TC05_Search@14cd1699]" name="verify_navigation_fromSiteMap" class="testCases.TC05_Search"/>
+        <method signature="TC06_ProductDetails.verify_productDisplayFromDropdown()[pri:1, instance:testCases.TC06_ProductDetails@76505305]" name="verify_productDisplayFromDropdown" class="testCases.TC06_ProductDetails"/>
+        <method signature="TC03_AccountLogout.verifyLogout_fromMyAccount()[pri:2, instance:testCases.TC03_AccountLogout@4218d6a3]" name="verifyLogout_fromMyAccount" class="testCases.TC03_AccountLogout"/>
+        <method signature="TC05_Search.verify_search_validProduct()[pri:2, instance:testCases.TC05_Search@14cd1699]" name="verify_search_validProduct" class="testCases.TC05_Search"/>
+        <method signature="TC03_AccountLogout.verifyLogout_fromRightColumn()[pri:3, instance:testCases.TC03_AccountLogout@4218d6a3]" name="verifyLogout_fromRightColumn" class="testCases.TC03_AccountLogout"/>
+        <method signature="TC05_Search.verify_search_AfterLogin()[pri:6, instance:testCases.TC05_Search@14cd1699]" name="verify_search_AfterLogin" class="testCases.TC05_Search"/>
+        <method signature="TC01_AccountRegistration.verifyAccReg_newsletterYes()[pri:15, instance:testCases.TC01_AccountRegistration@77888435]" name="verifyAccReg_newsletterYes" class="testCases.TC01_AccountRegistration"/>
+        <method signature="TC01_AccountRegistration.verifyAccReg_newsletterNo()[pri:16, instance:testCases.TC01_AccountRegistration@77888435]" name="verifyAccReg_newsletterNo" class="testCases.TC01_AccountRegistration"/>
+        <method signature="TC01_AccountRegistration.verify_navigation2_reg()[pri:17, instance:testCases.TC01_AccountRegistration@77888435]" name="verify_navigation2_reg" class="testCases.TC01_AccountRegistration"/>
+        <method signature="TC02_AccountLogin.verify_login_navigation_link()[pri:1, instance:testCases.TC02_AccountLogin@48f2bd5b]" name="verify_login_navigation_link" class="testCases.TC02_AccountLogin"/>
+        <method signature="TC02_AccountLogin.verify_login_navigation_RightColumn()[pri:2, instance:testCases.TC02_AccountLogin@48f2bd5b]" name="verify_login_navigation_RightColumn" class="testCases.TC02_AccountLogin"/>
+        <method signature="TC02_AccountLogin.verify_login_ValidCredentials()[pri:4, instance:testCases.TC02_AccountLogin@48f2bd5b]" name="verify_login_ValidCredentials" class="testCases.TC02_AccountLogin"/>
+        <method signature="TC02_AccountLogin.verify_ForgotPwdPage()[pri:16, instance:testCases.TC02_AccountLogin@48f2bd5b]" name="verify_ForgotPwdPage" class="testCases.TC02_AccountLogin"/>
+      </group> <!-- Sanity -->
+      <group name="EndToEnd">
+        <method signature="TC05_Search.verify_search_AfterLogin()[pri:6, instance:testCases.TC05_Search@14cd1699]" name="verify_search_AfterLogin" class="testCases.TC05_Search"/>
+        <method signature="TC06_ProductDetails.verify_productDisplayFromConfirmOrder()[pri:6, instance:testCases.TC06_ProductDetails@76505305]" name="verify_productDisplayFromConfirmOrder" class="testCases.TC06_ProductDetails"/>
+        <method signature="TC06_ProductDetails.verify_AddToCartFromProductDisplay()[pri:8, instance:testCases.TC06_ProductDetails@76505305]" name="verify_AddToCartFromProductDisplay" class="testCases.TC06_ProductDetails"/>
+        <method signature="TC01_AccountRegistration.verify_navigation2_reg()[pri:17, instance:testCases.TC01_AccountRegistration@77888435]" name="verify_navigation2_reg" class="testCases.TC01_AccountRegistration"/>
+        <method signature="TC03_AccountLogout.verifyLogout_Browseback()[pri:4, instance:testCases.TC03_AccountLogout@4218d6a3]" name="verifyLogout_Browseback" class="testCases.TC03_AccountLogout"/>
+        <method signature="TC04_ForgotPassword.verifyForgotPwd_loggingInAfterReset()[pri:8, instance:testCases.TC04_ForgotPassword@55182842]" name="verifyForgotPwd_loggingInAfterReset" class="testCases.TC04_ForgotPassword"/>
+      </group> <!-- EndToEnd -->
+      <group name="Negative">
+        <method signature="TC05_Search.verify_search_invalidProduct()[pri:3, instance:testCases.TC05_Search@14cd1699]" name="verify_search_invalidProduct" class="testCases.TC05_Search"/>
+        <method signature="TC01_AccountRegistration.verifyAccountReg_invalid_email(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:testCases.TC01_AccountRegistration@77888435]" name="verifyAccountReg_invalid_email" class="testCases.TC01_AccountRegistration"/>
+        <method signature="TC05_Search.verify_search_emptySearchfield()[pri:4, instance:testCases.TC05_Search@14cd1699]" name="verify_search_emptySearchfield" class="testCases.TC05_Search"/>
+        <method signature="TC01_AccountRegistration.verify_account_reg_invalid_fname(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:testCases.TC01_AccountRegistration@77888435]" name="verify_account_reg_invalid_fname" class="testCases.TC01_AccountRegistration"/>
+        <method signature="TC05_Search.verify_search_emptySearchfield02()[pri:5, instance:testCases.TC05_Search@14cd1699]" name="verify_search_emptySearchfield02" class="testCases.TC05_Search"/>
+        <method signature="TC01_AccountRegistration.verify_account_reg_invalid_lname(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:6, instance:testCases.TC01_AccountRegistration@77888435]" name="verify_account_reg_invalid_lname" class="testCases.TC01_AccountRegistration"/>
+        <method signature="TC01_AccountRegistration.verifyAccountReg_invalid_phno(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:testCases.TC01_AccountRegistration@77888435]" name="verifyAccountReg_invalid_phno" class="testCases.TC01_AccountRegistration"/>
+        <method signature="TC01_AccountRegistration.verifyAccountReg_AlreadyRegEmail(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:8, instance:testCases.TC01_AccountRegistration@77888435]" name="verifyAccountReg_AlreadyRegEmail" class="testCases.TC01_AccountRegistration"/>
+        <method signature="TC05_Search.verifyWithoutCheckingSearchInSubCategories()[pri:8, instance:testCases.TC05_Search@14cd1699]" name="verifyWithoutCheckingSearchInSubCategories" class="testCases.TC05_Search"/>
+        <method signature="TC01_AccountRegistration.verifyAccountReg_invalidPwd(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:9, instance:testCases.TC01_AccountRegistration@77888435]" name="verifyAccountReg_invalidPwd" class="testCases.TC01_AccountRegistration"/>
+        <method signature="TC01_AccountRegistration.verifyAccountReg_DiffPwd(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:11, instance:testCases.TC01_AccountRegistration@77888435]" name="verifyAccountReg_DiffPwd" class="testCases.TC01_AccountRegistration"/>
+        <method signature="TC01_AccountRegistration.verifyAccountReg_NotAgree(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:12, instance:testCases.TC01_AccountRegistration@77888435]" name="verifyAccountReg_NotAgree" class="testCases.TC01_AccountRegistration"/>
+        <method signature="TC01_AccountRegistration.verifyAccReg_notGivingAllMandatoryDetails()[pri:13, instance:testCases.TC01_AccountRegistration@77888435]" name="verifyAccReg_notGivingAllMandatoryDetails" class="testCases.TC01_AccountRegistration"/>
+        <method signature="TC01_AccountRegistration.verifyAccReg_notGivingAllMandatoryDetails2()[pri:14, instance:testCases.TC01_AccountRegistration@77888435]" name="verifyAccReg_notGivingAllMandatoryDetails2" class="testCases.TC01_AccountRegistration"/>
+        <method signature="TC01_AccountRegistration.verifyAccReg_onlySpaces()[pri:20, instance:testCases.TC01_AccountRegistration@77888435]" name="verifyAccReg_onlySpaces" class="testCases.TC01_AccountRegistration"/>
+        <method signature="TC01_AccountRegistration.verifyAccReg_onlySpaces2()[pri:21, instance:testCases.TC01_AccountRegistration@77888435]" name="verifyAccReg_onlySpaces2" class="testCases.TC01_AccountRegistration"/>
+        <method signature="TC03_AccountLogout.verifyLogout_Browseback()[pri:4, instance:testCases.TC03_AccountLogout@4218d6a3]" name="verifyLogout_Browseback" class="testCases.TC03_AccountLogout"/>
+        <method signature="TC02_AccountLogin.verify_login_NotRegisteredUsername()[pri:5, instance:testCases.TC02_AccountLogin@48f2bd5b]" name="verify_login_NotRegisteredUsername" class="testCases.TC02_AccountLogin"/>
+        <method signature="TC02_AccountLogin.verify_login_WrongPwd()[pri:6, instance:testCases.TC02_AccountLogin@48f2bd5b]" name="verify_login_WrongPwd" class="testCases.TC02_AccountLogin"/>
+        <method signature="TC02_AccountLogin.verify_login_EmptyPwd()[pri:7, instance:testCases.TC02_AccountLogin@48f2bd5b]" name="verify_login_EmptyPwd" class="testCases.TC02_AccountLogin"/>
+        <method signature="TC02_AccountLogin.verify_login_EmptyUN()[pri:8, instance:testCases.TC02_AccountLogin@48f2bd5b]" name="verify_login_EmptyUN" class="testCases.TC02_AccountLogin"/>
+        <method signature="TC02_AccountLogin.verifyLogin_EmptyUN_PWD()[pri:9, instance:testCases.TC02_AccountLogin@48f2bd5b]" name="verifyLogin_EmptyUN_PWD" class="testCases.TC02_AccountLogin"/>
+        <method signature="TC02_AccountLogin.verify_ForgotPwd02()[pri:17, instance:testCases.TC02_AccountLogin@48f2bd5b]" name="verify_ForgotPwd02" class="testCases.TC02_AccountLogin"/>
+        <method signature="TC02_AccountLogin.verify_ForgotPwd03()[pri:18, instance:testCases.TC02_AccountLogin@48f2bd5b]" name="verify_ForgotPwd03" class="testCases.TC02_AccountLogin"/>
+        <method signature="TC02_AccountLogin.verifyLogin_OnlySpaces()[pri:20, instance:testCases.TC02_AccountLogin@48f2bd5b]" name="verifyLogin_OnlySpaces" class="testCases.TC02_AccountLogin"/>
+      </group> <!-- Negative -->
+      <group name="UI">
+        <method signature="TC03_AccountLogout.verifyLogout_AfterLogin()[pri:1, instance:testCases.TC03_AccountLogout@4218d6a3]" name="verifyLogout_AfterLogin" class="testCases.TC03_AccountLogout"/>
+        <method signature="TC03_AccountLogout.verifyLogoutNotDisplayedBeforeLoggingIn()[pri:5, instance:testCases.TC03_AccountLogout@4218d6a3]" name="verifyLogoutNotDisplayedBeforeLoggingIn" class="testCases.TC03_AccountLogout"/>
+        <method signature="TC05_Search.verifyPlaceholders()[pri:9, instance:testCases.TC05_Search@14cd1699]" name="verifyPlaceholders" class="testCases.TC05_Search"/>
+        <method signature="TC01_AccountRegistration.verifyAccountReg_hiddenPwd()[pri:10, instance:testCases.TC01_AccountRegistration@77888435]" name="verifyAccountReg_hiddenPwd" class="testCases.TC01_AccountRegistration"/>
+        <method signature="TC01_AccountRegistration.verify_navigation3_reg()[pri:18, instance:testCases.TC01_AccountRegistration@77888435]" name="verify_navigation3_reg" class="testCases.TC01_AccountRegistration"/>
+        <method signature="TC01_AccountRegistration.verifyAccReg_placeholders()[pri:22, instance:testCases.TC01_AccountRegistration@77888435]" name="verifyAccReg_placeholders" class="testCases.TC01_AccountRegistration"/>
+        <method signature="TC01_AccountRegistration.verifyAccReg_PrivacyPolicy()[pri:23, instance:testCases.TC01_AccountRegistration@77888435]" name="verifyAccReg_PrivacyPolicy" class="testCases.TC01_AccountRegistration"/>
+        <method signature="TC04_ForgotPassword.verifyForgotPwd_SuccessMsg()[pri:4, instance:testCases.TC04_ForgotPassword@55182842]" name="verifyForgotPwd_SuccessMsg" class="testCases.TC04_ForgotPassword"/>
+        <method signature="TC04_ForgotPassword.verifyForgotPwd_FailureMsg()[pri:5, instance:testCases.TC04_ForgotPassword@55182842]" name="verifyForgotPwd_FailureMsg" class="testCases.TC04_ForgotPassword"/>
+        <method signature="TC03_AccountLogout.verify_ProperMessageAfterLogout()[pri:6, instance:testCases.TC03_AccountLogout@4218d6a3]" name="verify_ProperMessageAfterLogout" class="testCases.TC03_AccountLogout"/>
+        <method signature="TC04_ForgotPassword.verifyForgotPwd_FailureMsgIfNoEmail()[pri:6, instance:testCases.TC04_ForgotPassword@55182842]" name="verifyForgotPwd_FailureMsgIfNoEmail" class="testCases.TC04_ForgotPassword"/>
+        <method signature="TC04_ForgotPassword.verifyForgotPwd_Placeholder_email()[pri:7, instance:testCases.TC04_ForgotPassword@55182842]" name="verifyForgotPwd_Placeholder_email" class="testCases.TC04_ForgotPassword"/>
+        <method signature="TC02_AccountLogin.verifyLogin_PwdToggled()[pri:11, instance:testCases.TC02_AccountLogin@48f2bd5b]" name="verifyLogin_PwdToggled" class="testCases.TC02_AccountLogin"/>
+        <method signature="TC02_AccountLogin.verify_Login_Placeholders()[pri:19, instance:testCases.TC02_AccountLogin@48f2bd5b]" name="verify_Login_Placeholders" class="testCases.TC02_AccountLogin"/>
+      </group> <!-- UI -->
+      <group name="Regression">
+        <method signature="TC01_AccountRegistration.verify_navigation_registration()[pri:1, instance:testCases.TC01_AccountRegistration@77888435]" name="verify_navigation_registration" class="testCases.TC01_AccountRegistration"/>
+        <method signature="TC03_AccountLogout.verifyLogout_AfterLogin()[pri:1, instance:testCases.TC03_AccountLogout@4218d6a3]" name="verifyLogout_AfterLogin" class="testCases.TC03_AccountLogout"/>
+        <method signature="TC01_AccountRegistration.verify_account_registration()[pri:3, instance:testCases.TC01_AccountRegistration@77888435]" name="verify_account_registration" class="testCases.TC01_AccountRegistration"/>
+        <method signature="TC03_AccountLogout.verifyLogout_fromRightColumn()[pri:3, instance:testCases.TC03_AccountLogout@4218d6a3]" name="verifyLogout_fromRightColumn" class="testCases.TC03_AccountLogout"/>
+        <method signature="TC05_Search.verify_search_AfterLogin()[pri:6, instance:testCases.TC05_Search@14cd1699]" name="verify_search_AfterLogin" class="testCases.TC05_Search"/>
+        <method signature="TC05_Search.verifyWithoutCheckingSearchInProductDescription()[pri:7, instance:testCases.TC05_Search@14cd1699]" name="verifyWithoutCheckingSearchInProductDescription" class="testCases.TC05_Search"/>
+        <method signature="TC01_AccountRegistration.verifyAccountReg_AlreadyRegEmail(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:8, instance:testCases.TC01_AccountRegistration@77888435]" name="verifyAccountReg_AlreadyRegEmail" class="testCases.TC01_AccountRegistration"/>
+        <method signature="TC05_Search.verifyWithoutCheckingSearchInSubCategories()[pri:8, instance:testCases.TC05_Search@14cd1699]" name="verifyWithoutCheckingSearchInSubCategories" class="testCases.TC05_Search"/>
+        <method signature="TC01_AccountRegistration.verifyAccReg_newsletterYes()[pri:15, instance:testCases.TC01_AccountRegistration@77888435]" name="verifyAccReg_newsletterYes" class="testCases.TC01_AccountRegistration"/>
+        <method signature="TC01_AccountRegistration.verifyAccReg_newsletterNo()[pri:16, instance:testCases.TC01_AccountRegistration@77888435]" name="verifyAccReg_newsletterNo" class="testCases.TC01_AccountRegistration"/>
+        <method signature="TC01_AccountRegistration.verify_navigation2_reg()[pri:17, instance:testCases.TC01_AccountRegistration@77888435]" name="verify_navigation2_reg" class="testCases.TC01_AccountRegistration"/>
+        <method signature="TC01_AccountRegistration.verify_navigation3_reg()[pri:18, instance:testCases.TC01_AccountRegistration@77888435]" name="verify_navigation3_reg" class="testCases.TC01_AccountRegistration"/>
+        <method signature="TC01_AccountRegistration.verifyAccReg_Keyboard()[pri:19, instance:testCases.TC01_AccountRegistration@77888435]" name="verifyAccReg_Keyboard" class="testCases.TC01_AccountRegistration"/>
+        <method signature="TC04_ForgotPassword.verifyForgotPwd_fromLoginPage()[pri:1, instance:testCases.TC04_ForgotPassword@55182842]" name="verifyForgotPwd_fromLoginPage" class="testCases.TC04_ForgotPassword"/>
+        <method signature="TC04_ForgotPassword.verifyForgotPwd_fromRightColumn()[pri:2, instance:testCases.TC04_ForgotPassword@55182842]" name="verifyForgotPwd_fromRightColumn" class="testCases.TC04_ForgotPassword"/>
+        <method signature="TC04_ForgotPassword.verifyForgotPwd_AskValidEmail()[pri:3, instance:testCases.TC04_ForgotPassword@55182842]" name="verifyForgotPwd_AskValidEmail" class="testCases.TC04_ForgotPassword"/>
+        <method signature="TC03_AccountLogout.verifyLogout_Browseback()[pri:4, instance:testCases.TC03_AccountLogout@4218d6a3]" name="verifyLogout_Browseback" class="testCases.TC03_AccountLogout"/>
+        <method signature="TC04_ForgotPassword.verifyForgotPwd_loggingInAfterReset()[pri:8, instance:testCases.TC04_ForgotPassword@55182842]" name="verifyForgotPwd_loggingInAfterReset" class="testCases.TC04_ForgotPassword"/>
+        <method signature="TC02_AccountLogin.verifyLogin_PwdInPageSource()[pri:12, instance:testCases.TC02_AccountLogin@48f2bd5b]" name="verifyLogin_PwdInPageSource" class="testCases.TC02_AccountLogin"/>
+        <method signature="TC02_AccountLogin.verify_ForgotPwdLink()[pri:15, instance:testCases.TC02_AccountLogin@48f2bd5b]" name="verify_ForgotPwdLink" class="testCases.TC02_AccountLogin"/>
+        <method signature="TC02_AccountLogin.verify_ForgotPwdPage()[pri:16, instance:testCases.TC02_AccountLogin@48f2bd5b]" name="verify_ForgotPwdPage" class="testCases.TC02_AccountLogin"/>
+      </group> <!-- Regression -->
+      <group name="Regresssion">
+        <method signature="TC01_AccountRegistration.verifyAccountReg_NotAgree(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:12, instance:testCases.TC01_AccountRegistration@77888435]" name="verifyAccountReg_NotAgree" class="testCases.TC01_AccountRegistration"/>
+      </group> <!-- Regresssion -->
+      <group name="Smoke">
+        <method signature="TC03_AccountLogout.verifyLogout_fromMyAccount()[pri:2, instance:testCases.TC03_AccountLogout@4218d6a3]" name="verifyLogout_fromMyAccount" class="testCases.TC03_AccountLogout"/>
+        <method signature="TC01_AccountRegistration.verify_account_registration()[pri:3, instance:testCases.TC01_AccountRegistration@77888435]" name="verify_account_registration" class="testCases.TC01_AccountRegistration"/>
+        <method signature="TC06_ProductDetails.verify_AddToCartFromProductDisplay()[pri:8, instance:testCases.TC06_ProductDetails@76505305]" name="verify_AddToCartFromProductDisplay" class="testCases.TC06_ProductDetails"/>
+        <method signature="TC02_AccountLogin.verify_login_ValidCredentials()[pri:4, instance:testCases.TC02_AccountLogin@48f2bd5b]" name="verify_login_ValidCredentials" class="testCases.TC02_AccountLogin"/>
+      </group> <!-- Smoke -->
+      <group name="Security">
+        <method signature="TC01_AccountRegistration.verifyAccountReg_hiddenPwd()[pri:10, instance:testCases.TC01_AccountRegistration@77888435]" name="verifyAccountReg_hiddenPwd" class="testCases.TC01_AccountRegistration"/>
+        <method signature="TC03_AccountLogout.verifyLogout_Browseback()[pri:4, instance:testCases.TC03_AccountLogout@4218d6a3]" name="verifyLogout_Browseback" class="testCases.TC03_AccountLogout"/>
+        <method signature="TC02_AccountLogin.verifyLogin_PwdInPageSource()[pri:12, instance:testCases.TC02_AccountLogin@48f2bd5b]" name="verifyLogin_PwdInPageSource" class="testCases.TC02_AccountLogin"/>
+      </group> <!-- Security -->
+    </groups>
+    <test started-at="2025-09-11T01:03:12 IST" name="Test" finished-at="2025-09-11T01:19:45 IST" duration-ms="992487">
+      <class name="testCases.TC01_AccountRegistration">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC01_AccountRegistration@77888435]" started-at="2025-09-11T01:10:35 IST" name="setup" finished-at="2025-09-11T01:10:38 IST" duration-ms="2312" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_navigation_registration()[pri:1, instance:testCases.TC01_AccountRegistration@77888435]" started-at="2025-09-11T01:10:38 IST" name="verify_navigation_registration" finished-at="2025-09-11T01:10:41 IST" duration-ms="3899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_navigation_registration -->
+        <test-method signature="verify_account_registration()[pri:3, instance:testCases.TC01_AccountRegistration@77888435]" started-at="2025-09-11T01:10:41 IST" name="verify_account_registration" finished-at="2025-09-11T01:10:53 IST" duration-ms="11577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_account_registration -->
+        <test-method signature="verifyAccountReg_invalid_email(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:testCases.TC01_AccountRegistration@77888435]" started-at="2025-09-11T01:10:54 IST" name="verifyAccountReg_invalid_email" data-provider="Register_email" finished-at="2025-09-11T01:11:24 IST" duration-ms="29992" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7gqcw4fuinxw@hotmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9447975642]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[baselal]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[k]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAccountReg_invalid_email -->
+        <test-method signature="verify_account_reg_invalid_fname(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:testCases.TC01_AccountRegistration@77888435]" started-at="2025-09-11T01:11:24 IST" name="verify_account_reg_invalid_fname" data-provider="Register_fname" finished-at="2025-09-11T01:11:55 IST" duration-ms="30419" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ghkw020ea78e03@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9447975642]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[liya)*]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[shaji]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_account_reg_invalid_fname -->
+        <test-method signature="verify_account_reg_invalid_lname(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:6, instance:testCases.TC01_AccountRegistration@77888435]" started-at="2025-09-11T01:11:55 IST" name="verify_account_reg_invalid_lname" data-provider="Register_lname" finished-at="2025-09-11T01:12:25 IST" duration-ms="30078" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[zakaria.witt@outlook.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9447975642]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[liya]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[shaji((&]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_account_reg_invalid_lname -->
+        <test-method signature="verifyAccountReg_invalid_phno(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:testCases.TC01_AccountRegistration@77888435]" started-at="2025-09-11T01:12:25 IST" name="verifyAccountReg_invalid_phno" data-provider="Register_ph_no" finished-at="2025-09-11T01:12:55 IST" duration-ms="29903" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[joshiah.baxter@hotmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21245]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[baselal]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[k]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAccountReg_invalid_phno -->
+        <test-method signature="verifyAccountReg_AlreadyRegEmail(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:8, instance:testCases.TC01_AccountRegistration@77888435]" started-at="2025-09-11T01:12:55 IST" name="verifyAccountReg_AlreadyRegEmail" data-provider="Already_RegEmail" finished-at="2025-09-11T01:13:25 IST" duration-ms="29981" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jai.hopper@msn.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[944683642]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[luiuyh]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ghgh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAccountReg_AlreadyRegEmail -->
+        <test-method signature="verifyAccountReg_invalidPwd(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:9, instance:testCases.TC01_AccountRegistration@77888435]" started-at="2025-09-11T01:13:26 IST" name="verifyAccountReg_invalidPwd" data-provider="Pwd_invalid" finished-at="2025-09-11T01:13:56 IST" duration-ms="29975" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[darrach.keith@googlemail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[944683642]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[luiuyh]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[fdg]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ff]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAccountReg_invalidPwd -->
+        <test-method signature="verifyAccountReg_hiddenPwd()[pri:10, instance:testCases.TC01_AccountRegistration@77888435]" started-at="2025-09-11T01:13:56 IST" name="verifyAccountReg_hiddenPwd" finished-at="2025-09-11T01:14:02 IST" duration-ms="6583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAccountReg_hiddenPwd -->
+        <test-method signature="verifyAccountReg_DiffPwd(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:11, instance:testCases.TC01_AccountRegistration@77888435]" started-at="2025-09-11T01:14:03 IST" name="verifyAccountReg_DiffPwd" data-provider="Valid_details2" finished-at="2025-09-11T01:14:33 IST" duration-ms="30038" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[maddison.wood@comcast.net]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9447975642]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[liya]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[shaji]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAccountReg_DiffPwd -->
+        <test-method signature="verifyAccountReg_DiffPwd(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:11, instance:testCases.TC01_AccountRegistration@77888435]" started-at="2025-09-11T01:14:33 IST" name="verifyAccountReg_DiffPwd" data-provider="Valid_details2" finished-at="2025-09-11T01:15:03 IST" duration-ms="30411" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[n1ny1snmze@googlemail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9446835642]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[baselal]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[k]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAccountReg_DiffPwd -->
+        <test-method signature="verifyAccountReg_NotAgree(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:12, instance:testCases.TC01_AccountRegistration@77888435]" started-at="2025-09-11T01:15:03 IST" name="verifyAccountReg_NotAgree" data-provider="Valid_details3" finished-at="2025-09-11T01:15:34 IST" duration-ms="30415" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[maddison.wood@comcast.net]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9447975642]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[liya]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[shaji]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAccountReg_NotAgree -->
+        <test-method signature="verifyAccountReg_NotAgree(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:12, instance:testCases.TC01_AccountRegistration@77888435]" started-at="2025-09-11T01:15:34 IST" name="verifyAccountReg_NotAgree" data-provider="Valid_details3" finished-at="2025-09-11T01:16:05 IST" duration-ms="30904" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[n1ny1snmze@googlemail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9446835642]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[baselal]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[k]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAccountReg_NotAgree -->
+        <test-method signature="verifyAccReg_notGivingAllMandatoryDetails()[pri:13, instance:testCases.TC01_AccountRegistration@77888435]" started-at="2025-09-11T01:16:05 IST" name="verifyAccReg_notGivingAllMandatoryDetails" finished-at="2025-09-11T01:16:35 IST" duration-ms="29928" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAccReg_notGivingAllMandatoryDetails -->
+        <test-method signature="verifyAccReg_notGivingAllMandatoryDetails2()[pri:14, instance:testCases.TC01_AccountRegistration@77888435]" started-at="2025-09-11T01:16:35 IST" name="verifyAccReg_notGivingAllMandatoryDetails2" finished-at="2025-09-11T01:17:07 IST" duration-ms="32849" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAccReg_notGivingAllMandatoryDetails2 -->
+        <test-method signature="verifyAccReg_newsletterYes()[pri:15, instance:testCases.TC01_AccountRegistration@77888435]" started-at="2025-09-11T01:17:07 IST" name="verifyAccReg_newsletterYes" finished-at="2025-09-11T01:17:24 IST" duration-ms="16364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAccReg_newsletterYes -->
+        <test-method signature="verifyAccReg_newsletterNo()[pri:16, instance:testCases.TC01_AccountRegistration@77888435]" started-at="2025-09-11T01:17:24 IST" name="verifyAccReg_newsletterNo" finished-at="2025-09-11T01:17:41 IST" duration-ms="16768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAccReg_newsletterNo -->
+        <test-method signature="verify_navigation2_reg()[pri:17, instance:testCases.TC01_AccountRegistration@77888435]" started-at="2025-09-11T01:17:41 IST" name="verify_navigation2_reg" finished-at="2025-09-11T01:17:45 IST" duration-ms="4668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_navigation2_reg -->
+        <test-method signature="verify_navigation3_reg()[pri:18, instance:testCases.TC01_AccountRegistration@77888435]" started-at="2025-09-11T01:17:45 IST" name="verify_navigation3_reg" finished-at="2025-09-11T01:17:46 IST" duration-ms="664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_navigation3_reg -->
+        <test-method signature="verifyAccReg_Keyboard()[pri:19, instance:testCases.TC01_AccountRegistration@77888435]" started-at="2025-09-11T01:17:46 IST" name="verifyAccReg_Keyboard" finished-at="2025-09-11T01:18:23 IST" duration-ms="37454" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Your Account Has Been Created!] but found [no such element: Unable to locate element: {"method":"xpath","selector":"//h1[normalize-space()='Your Account Has Been Created!']"}
+  (Session info: chrome=140.0.7339.82)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [338d1172cad94a8088e0a7c436b30b95, findElement {using=xpath, value=//h1[normalize-space()='Your Account Has Been Created!']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.82, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55033}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55033/devtoo..., se:cdpVersion: 140.0.7339.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 338d1172cad94a8088e0a7c436b30b95]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Your Account Has Been Created!] but found [no such element: Unable to locate element: {"method":"xpath","selector":"//h1[normalize-space()='Your Account Has Been Created!']"}
+  (Session info: chrome=140.0.7339.82)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [338d1172cad94a8088e0a7c436b30b95, findElement {using=xpath, value=//h1[normalize-space()='Your Account Has Been Created!']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.82, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55033}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55033/devtoo..., se:cdpVersion: 140.0.7339.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 338d1172cad94a8088e0a7c436b30b95]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at testCases.TC01_AccountRegistration.verifyAccReg_Keyboard(TC01_AccountRegistration.java:699)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAccReg_Keyboard -->
+        <test-method signature="verifyAccReg_onlySpaces()[pri:20, instance:testCases.TC01_AccountRegistration@77888435]" started-at="2025-09-11T01:18:23 IST" name="verifyAccReg_onlySpaces" finished-at="2025-09-11T01:18:56 IST" duration-ms="32987" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAccReg_onlySpaces -->
+        <test-method signature="verifyAccReg_onlySpaces2()[pri:21, instance:testCases.TC01_AccountRegistration@77888435]" started-at="2025-09-11T01:18:56 IST" name="verifyAccReg_onlySpaces2" finished-at="2025-09-11T01:19:29 IST" duration-ms="33005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAccReg_onlySpaces2 -->
+        <test-method signature="verifyAccReg_placeholders()[pri:22, instance:testCases.TC01_AccountRegistration@77888435]" started-at="2025-09-11T01:19:29 IST" name="verifyAccReg_placeholders" finished-at="2025-09-11T01:19:36 IST" duration-ms="6941" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAccReg_placeholders -->
+        <test-method signature="verifyAccReg_PrivacyPolicy()[pri:23, instance:testCases.TC01_AccountRegistration@77888435]" started-at="2025-09-11T01:19:36 IST" name="verifyAccReg_PrivacyPolicy" finished-at="2025-09-11T01:19:43 IST" duration-ms="7057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAccReg_PrivacyPolicy -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC01_AccountRegistration@77888435]" started-at="2025-09-11T01:19:43 IST" name="tearDown" finished-at="2025-09-11T01:19:45 IST" duration-ms="1420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC01_AccountRegistration -->
+      <class name="testCases.TC05_Search">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC05_Search@14cd1699]" started-at="2025-09-11T01:09:10 IST" name="setup" finished-at="2025-09-11T01:09:13 IST" duration-ms="2793" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_navigation_fromSiteMap()[pri:1, instance:testCases.TC05_Search@14cd1699]" started-at="2025-09-11T01:09:13 IST" name="verify_navigation_fromSiteMap" finished-at="2025-09-11T01:09:13 IST" duration-ms="772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_navigation_fromSiteMap -->
+        <test-method signature="verify_search_validProduct()[pri:2, instance:testCases.TC05_Search@14cd1699]" started-at="2025-09-11T01:09:13 IST" name="verify_search_validProduct" finished-at="2025-09-11T01:09:22 IST" duration-ms="8489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_search_validProduct -->
+        <test-method signature="verify_search_invalidProduct()[pri:3, instance:testCases.TC05_Search@14cd1699]" started-at="2025-09-11T01:09:22 IST" name="verify_search_invalidProduct" finished-at="2025-09-11T01:09:27 IST" duration-ms="5447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_search_invalidProduct -->
+        <test-method signature="verify_search_emptySearchfield()[pri:4, instance:testCases.TC05_Search@14cd1699]" started-at="2025-09-11T01:09:27 IST" name="verify_search_emptySearchfield" finished-at="2025-09-11T01:09:33 IST" duration-ms="5365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_search_emptySearchfield -->
+        <test-method signature="verify_search_emptySearchfield02()[pri:5, instance:testCases.TC05_Search@14cd1699]" started-at="2025-09-11T01:09:33 IST" name="verify_search_emptySearchfield02" finished-at="2025-09-11T01:09:38 IST" duration-ms="5346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_search_emptySearchfield02 -->
+        <test-method signature="verify_search_AfterLogin()[pri:6, instance:testCases.TC05_Search@14cd1699]" started-at="2025-09-11T01:09:38 IST" name="verify_search_AfterLogin" finished-at="2025-09-11T01:09:48 IST" duration-ms="9601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_search_AfterLogin -->
+        <test-method signature="verifyWithoutCheckingSearchInProductDescription()[pri:7, instance:testCases.TC05_Search@14cd1699]" started-at="2025-09-11T01:09:48 IST" name="verifyWithoutCheckingSearchInProductDescription" finished-at="2025-09-11T01:09:53 IST" duration-ms="5287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWithoutCheckingSearchInProductDescription -->
+        <test-method signature="verifyWithoutCheckingSearchInSubCategories()[pri:8, instance:testCases.TC05_Search@14cd1699]" started-at="2025-09-11T01:09:53 IST" name="verifyWithoutCheckingSearchInSubCategories" finished-at="2025-09-11T01:09:58 IST" duration-ms="5396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWithoutCheckingSearchInSubCategories -->
+        <test-method signature="verifyPlaceholders()[pri:9, instance:testCases.TC05_Search@14cd1699]" started-at="2025-09-11T01:09:58 IST" name="verifyPlaceholders" finished-at="2025-09-11T01:10:00 IST" duration-ms="1717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPlaceholders -->
+        <test-method signature="verifyListView_MultipleProducts()[pri:11, instance:testCases.TC05_Search@14cd1699]" started-at="2025-09-11T01:10:00 IST" name="verifyListView_MultipleProducts" finished-at="2025-09-11T01:10:11 IST" duration-ms="11244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyListView_MultipleProducts -->
+        <test-method signature="verifyListAndGridViews_MultipleProducts()[pri:12, instance:testCases.TC05_Search@14cd1699]" started-at="2025-09-11T01:10:11 IST" name="verifyListAndGridViews_MultipleProducts" finished-at="2025-09-11T01:10:17 IST" duration-ms="5431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyListAndGridViews_MultipleProducts -->
+        <test-method signature="verifyNavigation_ProductComparePage()[pri:13, instance:testCases.TC05_Search@14cd1699]" started-at="2025-09-11T01:10:17 IST" name="verifyNavigation_ProductComparePage" finished-at="2025-09-11T01:10:34 IST" duration-ms="16851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNavigation_ProductComparePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC05_Search@14cd1699]" started-at="2025-09-11T01:10:34 IST" name="tearDown" finished-at="2025-09-11T01:10:35 IST" duration-ms="1604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC05_Search -->
+      <class name="testCases.TC06_ProductDetails">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC06_ProductDetails@76505305]" started-at="2025-09-11T01:06:29 IST" name="setup" finished-at="2025-09-11T01:06:32 IST" duration-ms="2134" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_productDisplayFromDropdown()[pri:1, instance:testCases.TC06_ProductDetails@76505305]" started-at="2025-09-11T01:06:32 IST" name="verify_productDisplayFromDropdown" finished-at="2025-09-11T01:06:42 IST" duration-ms="10319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_productDisplayFromDropdown -->
+        <test-method signature="verify_productDisplayFromWishListImg()[pri:2, instance:testCases.TC06_ProductDetails@76505305]" started-at="2025-09-11T01:06:42 IST" name="verify_productDisplayFromWishListImg" finished-at="2025-09-11T01:07:14 IST" duration-ms="32333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_productDisplayFromWishListImg -->
+        <test-method signature="verify_productDisplayFromWishListName()[pri:3, instance:testCases.TC06_ProductDetails@76505305]" started-at="2025-09-11T01:07:14 IST" name="verify_productDisplayFromWishListName" finished-at="2025-09-11T01:07:45 IST" duration-ms="31036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_productDisplayFromWishListName -->
+        <test-method signature="verify_productDisplayFromAddToCartImg()[pri:4, instance:testCases.TC06_ProductDetails@76505305]" started-at="2025-09-11T01:07:45 IST" name="verify_productDisplayFromAddToCartImg" finished-at="2025-09-11T01:08:15 IST" duration-ms="29456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_productDisplayFromAddToCartImg -->
+        <test-method signature="verify_productDisplayFromConfirmOrder()[pri:6, instance:testCases.TC06_ProductDetails@76505305]" started-at="2025-09-11T01:08:15 IST" name="verify_productDisplayFromConfirmOrder" finished-at="2025-09-11T01:08:53 IST" duration-ms="38415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_productDisplayFromConfirmOrder -->
+        <test-method signature="verify_AddToCartFromProductDisplay()[pri:8, instance:testCases.TC06_ProductDetails@76505305]" started-at="2025-09-11T01:08:53 IST" name="verify_AddToCartFromProductDisplay" finished-at="2025-09-11T01:09:09 IST" duration-ms="15425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_AddToCartFromProductDisplay -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC06_ProductDetails@76505305]" started-at="2025-09-11T01:09:09 IST" name="tearDown" finished-at="2025-09-11T01:09:10 IST" duration-ms="1257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC06_ProductDetails -->
+      <class name="testCases.TC03_AccountLogout">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC03_AccountLogout@4218d6a3]" started-at="2025-09-11T01:05:41 IST" name="setup" finished-at="2025-09-11T01:05:43 IST" duration-ms="2195" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLogout_AfterLogin()[pri:1, instance:testCases.TC03_AccountLogout@4218d6a3]" started-at="2025-09-11T01:05:43 IST" name="verifyLogout_AfterLogin" finished-at="2025-09-11T01:05:49 IST" duration-ms="6351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogout_AfterLogin -->
+        <test-method signature="verifyLogout_fromMyAccount()[pri:2, instance:testCases.TC03_AccountLogout@4218d6a3]" started-at="2025-09-11T01:05:49 IST" name="verifyLogout_fromMyAccount" finished-at="2025-09-11T01:05:59 IST" depends-on-methods="verifyLogout_AfterLogin()" duration-ms="9783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogout_fromMyAccount -->
+        <test-method signature="verifyLogout_fromRightColumn()[pri:3, instance:testCases.TC03_AccountLogout@4218d6a3]" started-at="2025-09-11T01:05:59 IST" name="verifyLogout_fromRightColumn" finished-at="2025-09-11T01:06:04 IST" duration-ms="5273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogout_fromRightColumn -->
+        <test-method signature="verifyLogout_Browseback()[pri:4, instance:testCases.TC03_AccountLogout@4218d6a3]" started-at="2025-09-11T01:06:04 IST" name="verifyLogout_Browseback" finished-at="2025-09-11T01:06:17 IST" duration-ms="12557" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1079)
+at org.testng.Assert.assertEquals(Assert.java:1043)
+at org.testng.Assert.assertEquals(Assert.java:1089)
+at testCases.TC03_AccountLogout.verifyLogout_Browseback(TC03_AccountLogout.java:131)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogout_Browseback -->
+        <test-method signature="verifyLogoutNotDisplayedBeforeLoggingIn()[pri:5, instance:testCases.TC03_AccountLogout@4218d6a3]" started-at="2025-09-11T01:06:17 IST" name="verifyLogoutNotDisplayedBeforeLoggingIn" finished-at="2025-09-11T01:06:20 IST" duration-ms="3178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoutNotDisplayedBeforeLoggingIn -->
+        <test-method signature="verify_ProperMessageAfterLogout()[pri:6, instance:testCases.TC03_AccountLogout@4218d6a3]" started-at="2025-09-11T01:06:20 IST" name="verify_ProperMessageAfterLogout" finished-at="2025-09-11T01:06:29 IST" duration-ms="8566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_ProperMessageAfterLogout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC03_AccountLogout@4218d6a3]" started-at="2025-09-11T01:06:29 IST" name="tearDown" finished-at="2025-09-11T01:06:29 IST" duration-ms="718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC03_AccountLogout -->
+      <class name="testCases.TC02_AccountLogin">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_AccountLogin@48f2bd5b]" started-at="2025-09-11T01:03:13 IST" name="setup" finished-at="2025-09-11T01:03:17 IST" duration-ms="3925" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_login_navigation_link()[pri:1, instance:testCases.TC02_AccountLogin@48f2bd5b]" started-at="2025-09-11T01:03:17 IST" name="verify_login_navigation_link" finished-at="2025-09-11T01:03:18 IST" duration-ms="1303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_login_navigation_link -->
+        <test-method signature="verify_login_navigation_RightColumn()[pri:2, instance:testCases.TC02_AccountLogin@48f2bd5b]" started-at="2025-09-11T01:03:18 IST" name="verify_login_navigation_RightColumn" finished-at="2025-09-11T01:03:18 IST" duration-ms="477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_login_navigation_RightColumn -->
+        <test-method signature="verify_login_navigation_MyAccount()[pri:3, instance:testCases.TC02_AccountLogin@48f2bd5b]" started-at="2025-09-11T01:03:18 IST" name="verify_login_navigation_MyAccount" finished-at="2025-09-11T01:03:20 IST" duration-ms="1141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_login_navigation_MyAccount -->
+        <test-method signature="verify_login_ValidCredentials()[pri:4, instance:testCases.TC02_AccountLogin@48f2bd5b]" started-at="2025-09-11T01:03:20 IST" name="verify_login_ValidCredentials" finished-at="2025-09-11T01:03:25 IST" duration-ms="5789" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_login_ValidCredentials -->
+        <test-method signature="verify_login_NotRegisteredUsername()[pri:5, instance:testCases.TC02_AccountLogin@48f2bd5b]" started-at="2025-09-11T01:03:25 IST" name="verify_login_NotRegisteredUsername" finished-at="2025-09-11T01:03:28 IST" duration-ms="2870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_login_NotRegisteredUsername -->
+        <test-method signature="verify_login_WrongPwd()[pri:6, instance:testCases.TC02_AccountLogin@48f2bd5b]" started-at="2025-09-11T01:03:28 IST" name="verify_login_WrongPwd" finished-at="2025-09-11T01:03:33 IST" duration-ms="4415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_login_WrongPwd -->
+        <test-method signature="verify_login_EmptyPwd()[pri:7, instance:testCases.TC02_AccountLogin@48f2bd5b]" started-at="2025-09-11T01:03:33 IST" name="verify_login_EmptyPwd" finished-at="2025-09-11T01:03:37 IST" duration-ms="3878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_login_EmptyPwd -->
+        <test-method signature="verify_login_EmptyUN()[pri:8, instance:testCases.TC02_AccountLogin@48f2bd5b]" started-at="2025-09-11T01:03:37 IST" name="verify_login_EmptyUN" finished-at="2025-09-11T01:03:40 IST" duration-ms="3415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_login_EmptyUN -->
+        <test-method signature="verifyLogin_EmptyUN_PWD()[pri:9, instance:testCases.TC02_AccountLogin@48f2bd5b]" started-at="2025-09-11T01:03:40 IST" name="verifyLogin_EmptyUN_PWD" finished-at="2025-09-11T01:03:43 IST" duration-ms="3512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin_EmptyUN_PWD -->
+        <test-method signature="verifyLogin_PwdToggled()[pri:11, instance:testCases.TC02_AccountLogin@48f2bd5b]" started-at="2025-09-11T01:03:43 IST" name="verifyLogin_PwdToggled" finished-at="2025-09-11T01:03:45 IST" duration-ms="1074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin_PwdToggled -->
+        <test-method signature="verifyLogin_PwdInPageSource()[pri:12, instance:testCases.TC02_AccountLogin@48f2bd5b]" started-at="2025-09-11T01:03:45 IST" name="verifyLogin_PwdInPageSource" finished-at="2025-09-11T01:03:46 IST" duration-ms="1081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin_PwdInPageSource -->
+        <test-method signature="verify_ForgotPwdLink()[pri:15, instance:testCases.TC02_AccountLogin@48f2bd5b]" started-at="2025-09-11T01:03:46 IST" name="verify_ForgotPwdLink" finished-at="2025-09-11T01:03:47 IST" duration-ms="958" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_ForgotPwdLink -->
+        <test-method signature="verify_ForgotPwdPage()[pri:16, instance:testCases.TC02_AccountLogin@48f2bd5b]" started-at="2025-09-11T01:03:47 IST" name="verify_ForgotPwdPage" finished-at="2025-09-11T01:03:48 IST" duration-ms="935" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_ForgotPwdPage -->
+        <test-method signature="verify_ForgotPwd02()[pri:17, instance:testCases.TC02_AccountLogin@48f2bd5b]" started-at="2025-09-11T01:03:48 IST" name="verify_ForgotPwd02" finished-at="2025-09-11T01:03:48 IST" duration-ms="944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_ForgotPwd02 -->
+        <test-method signature="verify_ForgotPwd03()[pri:18, instance:testCases.TC02_AccountLogin@48f2bd5b]" started-at="2025-09-11T01:03:48 IST" name="verify_ForgotPwd03" finished-at="2025-09-11T01:03:49 IST" duration-ms="811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_ForgotPwd03 -->
+        <test-method signature="verify_Login_Placeholders()[pri:19, instance:testCases.TC02_AccountLogin@48f2bd5b]" started-at="2025-09-11T01:03:49 IST" name="verify_Login_Placeholders" finished-at="2025-09-11T01:03:50 IST" duration-ms="537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Login_Placeholders -->
+        <test-method signature="verifyLogin_OnlySpaces()[pri:20, instance:testCases.TC02_AccountLogin@48f2bd5b]" started-at="2025-09-11T01:03:50 IST" name="verifyLogin_OnlySpaces" finished-at="2025-09-11T01:03:53 IST" duration-ms="3446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin_OnlySpaces -->
+        <test-method signature="verifyOpeningBrowserWithoutLoggingOut()[pri:26, instance:testCases.TC02_AccountLogin@48f2bd5b]" started-at="2025-09-11T01:03:53 IST" name="verifyOpeningBrowserWithoutLoggingOut" finished-at="2025-09-11T01:04:13 IST" duration-ms="20156" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=140.0.7339.82)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9be94fb0d7d0aba2a84e7352ae2295cd, clickElement {id=f.A6074833957768B20A57BA9FA1CE5D54.d.3552CB725521361D4E33E9567498C4E3.e.583}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.82, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61182}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61182/devtoo..., se:cdpVersion: 140.0.7339.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (9be94fb0d7d0aba2a84e7352ae2295cd)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Login']]
+Session ID: 9be94fb0d7d0aba2a84e7352ae2295cd]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=140.0.7339.82)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9be94fb0d7d0aba2a84e7352ae2295cd, clickElement {id=f.A6074833957768B20A57BA9FA1CE5D54.d.3552CB725521361D4E33E9567498C4E3.e.583}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.82, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61182}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61182/devtoo..., se:cdpVersion: 140.0.7339.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (9be94fb0d7d0aba2a84e7352ae2295cd)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Login']]
+Session ID: 9be94fb0d7d0aba2a84e7352ae2295cd
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy27.click(Unknown Source)
+at pageObjects.HomePage.clicklogin(HomePage.java:99)
+at testCases.TC02_AccountLogin.verifyOpeningBrowserWithoutLoggingOut(TC02_AccountLogin.java:413)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOpeningBrowserWithoutLoggingOut -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC02_AccountLogin@48f2bd5b]" started-at="2025-09-11T01:04:14 IST" name="tearDown" finished-at="2025-09-11T01:04:14 IST" duration-ms="562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC02_AccountLogin -->
+      <class name="testCases.TC04_ForgotPassword">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC04_ForgotPassword@55182842]" started-at="2025-09-11T01:04:14 IST" name="setup" finished-at="2025-09-11T01:04:20 IST" duration-ms="5875" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyForgotPwd_fromLoginPage()[pri:1, instance:testCases.TC04_ForgotPassword@55182842]" started-at="2025-09-11T01:04:20 IST" name="verifyForgotPwd_fromLoginPage" finished-at="2025-09-11T01:04:27 IST" duration-ms="7006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForgotPwd_fromLoginPage -->
+        <test-method signature="verifyForgotPwd_fromRightColumn()[pri:2, instance:testCases.TC04_ForgotPassword@55182842]" started-at="2025-09-11T01:04:27 IST" name="verifyForgotPwd_fromRightColumn" finished-at="2025-09-11T01:04:36 IST" duration-ms="8450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForgotPwd_fromRightColumn -->
+        <test-method signature="verifyForgotPwd_AskValidEmail()[pri:3, instance:testCases.TC04_ForgotPassword@55182842]" started-at="2025-09-11T01:04:36 IST" name="verifyForgotPwd_AskValidEmail" finished-at="2025-09-11T01:04:43 IST" duration-ms="7440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForgotPwd_AskValidEmail -->
+        <test-method signature="verifyForgotPwd_SuccessMsg()[pri:4, instance:testCases.TC04_ForgotPassword@55182842]" started-at="2025-09-11T01:04:43 IST" name="verifyForgotPwd_SuccessMsg" finished-at="2025-09-11T01:04:53 IST" duration-ms="10464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForgotPwd_SuccessMsg -->
+        <test-method signature="verifyForgotPwd_FailureMsg()[pri:5, instance:testCases.TC04_ForgotPassword@55182842]" started-at="2025-09-11T01:04:53 IST" name="verifyForgotPwd_FailureMsg" finished-at="2025-09-11T01:05:04 IST" duration-ms="10248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForgotPwd_FailureMsg -->
+        <test-method signature="verifyForgotPwd_FailureMsgIfNoEmail()[pri:6, instance:testCases.TC04_ForgotPassword@55182842]" started-at="2025-09-11T01:05:04 IST" name="verifyForgotPwd_FailureMsgIfNoEmail" finished-at="2025-09-11T01:05:14 IST" duration-ms="10709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForgotPwd_FailureMsgIfNoEmail -->
+        <test-method signature="verifyForgotPwd_Placeholder_email()[pri:7, instance:testCases.TC04_ForgotPassword@55182842]" started-at="2025-09-11T01:05:14 IST" name="verifyForgotPwd_Placeholder_email" finished-at="2025-09-11T01:05:22 IST" duration-ms="7124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForgotPwd_Placeholder_email -->
+        <test-method signature="verifyForgotPwd_loggingInAfterReset()[pri:8, instance:testCases.TC04_ForgotPassword@55182842]" started-at="2025-09-11T01:05:22 IST" name="verifyForgotPwd_loggingInAfterReset" finished-at="2025-09-11T01:05:40 IST" duration-ms="18656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForgotPwd_loggingInAfterReset -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC04_ForgotPassword@55182842]" started-at="2025-09-11T01:05:40 IST" name="tearDown" finished-at="2025-09-11T01:05:41 IST" duration-ms="451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC04_ForgotPassword -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
