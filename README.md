@@ -106,7 +106,6 @@ Configuration values like URLs, browser types are managed through the properties
 Reports
 -------
 
->> click on reports
->> click any report from dropdown
+click on reports--->click any report from dropdown
 >> click "download raw file"
 >> open the downloaded file
