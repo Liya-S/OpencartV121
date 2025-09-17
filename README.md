@@ -20,22 +20,22 @@ The following functionalities of the OpenCart website have been automated:
 Project Structure
 -----------------
 
-/src/test/java/ - 
-		# pageObjects ---> classes corresponding to various pages of the website
-		# testCases   ---> classes corresponding to each functionality testing all positive and negative test cases 
-		# utilities   ---> Data providers
+>> /src/test/java/ - 
+		* pageObjects ---> classes corresponding to various pages of the website
+		* testCases   ---> classes corresponding to each functionality testing all positive and negative test cases 
+		* utilities   ---> Data providers
 				               Excel utility file
 				               Extent report utility file
-/src/test/resources - properties file
+>> /src/test/resources - properties file
 		                  log4j2.xml file
 
-logs 
-reports - extent reports
-screenshots
-grouping.xml - XML file for grouping tests
-paralleltesting.xml -  XML file for parallel execution across browsers
-run.bat
-testng.xml - run all test cases together
+>> logs 
+>> reports - extent reports
+>> screenshots
+>> grouping.xml - XML file for grouping tests
+>> paralleltesting.xml -  XML file for parallel execution across browsers
+>> run.bat
+>> testng.xml - run all test cases together
 
 
 Tools & Technologies Used
